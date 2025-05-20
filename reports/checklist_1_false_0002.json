@@ -1,0 +1,47 @@
+{
+  "summary_of_major_safety_issues": [
+    "Unsafe scaffold access conditions involving climbing on crossbraces detected."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsafe Scaffold Access via Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "The use of crossbraces as a means of access is explicitly prohibited by OSHA standards (29 CFR 1926.451(e)(1)) due to the significant risk of falls and scaffold failure. Historical accident reports underline the danger of improper access methods, including falls resulting in serious injury or fatality. Unsafe access increases the likelihood of fall incidents and injuries.",
+      "finding": "The inspection revealed that employees are accessing and exiting the scaffold by climbing on crossbraces, which is a direct violation of OSHA regulations and a critical safety hazard. Crossbraces are not designed to be used as ladders or climbing points; their use as such compromises scaffold stability and employee safety. This unsafe practice exposes workers to a high risk of falls, potentially causing serious injuries or fatal accidents as documented in scaffold-related incident reports.",
+      "action_items": [
+        "Immediately prohibit all employees from using crossbraces as a means of access or egress.",
+        "Provide and ensure the installation of proper scaffold access systems such as ladders, stair towers, ramps, walkways, or integral prefabricated scaffold access as outlined in OSHA 29 CFR 1926.451(e).",
+        "Train all scaffold users and supervisors on OSHA-compliant access methods and the hazards of improper scaffold access.",
+        "Have a competent person conduct regular inspections to verify compliance with safe access requirements before each shift.",
+        "Implement a monitoring and enforcement plan to maintain safe scaffold access practices."
+      ],
+      "potential_accident_outcomes": [
+        "Fall from elevation resulting in fractures, traumatic injury, or fatality as shown in multiple accident case studies involving scaffold access misuse.",
+        "Serious fall injuries including head trauma, limb fractures, or crushing injuries due to loss of balance or scaffold collapse initiated by improper access methods."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(2),(4),(5),(6)",
+          "excerpt": "Permitted scaffold access methods include portable, hook-on, attachable ladders, stair towers, ramps, walkways, and integral prefabricated frames."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell from scaffold during installation leading to fatal head trauma, emphasizing the risk of improper scaffold use."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015",
+          "excerpt": "Employee fell approximately ten feet when using an improperly assembled scaffold ladder access, sustaining fractures and head injury."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

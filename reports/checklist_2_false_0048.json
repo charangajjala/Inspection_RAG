@@ -1,0 +1,94 @@
+{
+  "summary_of_major_safety_issues": [
+    "Failure to keep tools and materials at least 10 feet away from energized power lines.",
+    "Use of cross braces as a means of access to the scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Proximity of Tools and Materials to Energized Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Electrocution risks are critical due to potential contact with energized power lines causing fatalities and severe injuries, as demonstrated by multiple accident reports of electrocutions and electrical burns when scaffolds and materials were too close to power lines.",
+      "finding": "The inspection found tools and materials placed closer than 10 feet to energized power lines. This presents a significant electrocution hazard to employees working on or near the scaffold. Historical accident data highlights fatal and serious electrical injuries resulting from contact with overhead power lines during scaffold erection and use.",
+      "action_items": [
+        "Immediately relocate all tools and materials to maintain a minimum distance of 10 feet from energized power lines in compliance with OSHA clearance requirements.",
+        "Implement worksite policies to strictly enforce minimum clearance distances from power lines during scaffold erection, use, and material handling.",
+        "Ensure proper communication and coordination with utility companies to de-energize or relocate power lines if work must be conducted closer than prescribed distances.",
+        "Provide training focused on electrical hazards and safe distances from power lines, emphasizing risks of working near energized lines."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution of employees causing death or severe burns.",
+        "Electrical shock injuries requiring hospitalization.",
+        "Secondary injuries from falls after electrical contact."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines."
+        },
+        {
+          "reference": "29 CFR 1926.451(f)(12)",
+          "excerpt": "Employees are prohibited from working on scaffolds covered with snow, ice, or other slippery materials except to remove these substances and must maintain safe clearance distances from power lines."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 155680.015 (03/10/2022)",
+          "excerpt": "Two employees died due to electrocution while moving a pump jack scaffold that contacted overhead powerlines; a third employee was hospitalized."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505542.015 (12/08/2020)",
+          "excerpt": "Employee suffered electrical burns when scaffold came in close proximity to energized high-voltage conductors approximately 10 inches away."
+        },
+        {
+          "reference": "Accident Summary Nr: 1455864.015 (01/14/2020)",
+          "excerpt": "Three employees hospitalized for electrical burns after scaffold pole contacted overhead powerlines."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505237.015 (12/07/2020)",
+          "excerpt": "Employees electrocuted when a scaffold pole contacted energized overhead power lines."
+        }
+      ]
+    },
+    {
+      "issue_title": "Use of Cross Braces as Scaffold Access",
+      "checklist_item": "Check for safe access. Do not use the cross braces as a ladder for access or exit.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Use of cross braces as access is explicitly prohibited by OSHA due to high risk for falls. Improper access was linked to serious and fatal fall incidents in accident reports. Although no direct accident at current site is known, this non-compliance poses a high likelihood of falls from elevation.",
+      "finding": "The scaffold is accessed by climbing on cross braces, which is not an approved or safe means of ingress or egress. OSHA prohibits the use of cross braces as a means of access due to the lack of proper handholds, foot support, and increased fall risk. Historical accident reports emphasize falls and fatalities linked to unsafe scaffold access.",
+      "action_items": [
+        "Remove all access via cross braces immediately.",
+        "Install approved access methods such as ladders (portable, hook-on, attachable), stair towers, ramps, walkways, or integral prefabricated scaffold access per OSHA standards.",
+        "Ensure a competent person evaluates and confirms safe, compliant access is provided before scaffold use.",
+        "Train all employees on proper scaffold access methods as part of their scaffold safety training."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from elevation resulting in fractures, blunt force injuries, or fatalities.",
+        "Injuries due to slipping or misstepping on unstable access points."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of cross braces as a means of access."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(2), (4), (5), (6)",
+          "excerpt": "Permitted access includes portable, hook-on, attachable ladders, stair towers, ramps, walkways, and integral prefabricated scaffold access."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1506479.015 (12/10/2020)",
+          "excerpt": "Employee fell approximately ten feet when stepping on scaffold end frame rungs that were improperly assembled for safe access."
+        },
+        {
+          "reference": "Accident Summary Nr: 131063.015 (11/13/2020)",
+          "excerpt": "Employee killed after falling from scaffold during installation; contributing factors include improper access."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

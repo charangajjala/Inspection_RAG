@@ -1,0 +1,71 @@
+{
+  "summary_of_major_safety_issues": [
+    "Tools and materials are not maintained at least 10 feet away from energized power lines.",
+    "Scaffold legs, posts, frames, and uprights are not placed on baseplates and mudsills."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Inadequate clearance of tools and materials from energized power lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Proximity to energized power lines poses an immediate electrocution hazard, as demonstrated in multiple accident reports where contact with energized lines resulted in fatal and severe electrical injuries.",
+      "finding": "The inspection revealed that tools and materials on the scaffold are not maintained at the required minimum distance of 10 feet from energized power lines. This condition exposes employees to the risk of electrical shock or electrocution due to accidental contact with live electrical wires. Historical accident reports show fatal electrocutions and severe injuries from scaffold components or materials contacting energized lines, highlighting the critical nature of maintaining adequate clearance.",
+      "action_items": [
+        "Remove or relocate tools and materials to maintain at least 10 feet clearance from all energized power lines.",
+        "Coordinate with utility companies to de-energize, relocate, or shield power lines where scaffold work must occur nearby.",
+        "Incorporate safe work practices and training regarding electrical hazard awareness near scaffolds.",
+        "Implement and enforce a site-specific plan controlling the proximity of scaffold operations to energized power lines."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal electrocution resulting from contact with energized power lines (Document 9 - March 10, 2022 accident)",
+        "Electrical burns and shock injuries from scaffold components contacting power lines (Documents 5, 7, 8, 10)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines. Scaffolds and scaffold components shall not come closer to exposed and energized power lines than specified, unless lines are deenergized or relocated."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 155680.015 (Document 9)",
+          "excerpt": "Two employees were electrocuted when a pump jack scaffold made contact with overhead powerlines resulting in two fatalities and one hospitalization due to electrical burns."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505542.015 (Document 5 & 8)",
+          "excerpt": "Employee was electrocuted and sustained electrical burns due to proximity and contact with high-voltage conductors approximately 10 inches from the scaffold."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold legs, posts, frames, and uprights not properly supported on baseplates and mud sills",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Failure to place scaffold structural members on proper baseplates and mud sills can cause scaffold instability, tipping, and collapse leading to serious injury or death, as supported by OSHA guidelines and past accident investigations.",
+      "finding": "The scaffold structural components including legs, posts, and frames were found not to be placed correctly on baseplates and mud sills or equivalent firm foundations. This non-compliance creates a risk of scaffold displacement, swaying, or collapse under load, threatening the safety of employees working from or near the scaffold.",
+      "action_items": [
+        "Ensure all scaffold poles, legs, posts, frames, and uprights rest securely on baseplates and mud sills or other adequate firm foundation.",
+        "Do not use unstable objects or makeshift supports to bear scaffold weight.",
+        "Inspect and maintain footing conditions to prevent settling or displacement.",
+        "Train competent persons and scaffold erectors to verify proper footing during scaffold erection and use."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold collapse or tipping causing falls from elevation and severe injuries or fatalities."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall be plumb and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": null
+    }
+  ],
+  "non_complaint_items_count": 2
+}

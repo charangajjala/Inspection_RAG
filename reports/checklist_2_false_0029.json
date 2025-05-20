@@ -1,0 +1,77 @@
+{
+  "summary_of_major_safety_issues": [
+    "Unsafe method of scaffold access involving climbing on crossbraces detected.",
+    "Proximity of tools and materials to energized power lines is not maintained, posing electrical hazards."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsafe Scaffold Access by Climbing on Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "The OSHA standard explicitly prohibits use of crossbraces as a means of access or egress due to fall hazards (29 CFR 1926.451(e)(1)). Historical accident reports indicate that improper scaffold access methods have resulted in severe falls and fatalities (e.g., falls from scaffold frames or ladders leading to fractures and fatal injuries). Unsafe scaffold access presents a significant fall risk.",
+      "finding": "The inspection revealed that employees are using crossbraces for scaffold access, which is explicitly prohibited by OSHA standards. Climbing on crossbraces lacks the stability, secure footing, and handholds that safe access methods provide and increases the risk of falls from elevation.",
+      "action_items": [
+        "Immediately prohibit the use of crossbraces as a means of scaffold access or egress.",
+        "Provide safe and compliant access methods such as portable ladders, hook-on ladders, stair towers, ramps, walkways, or integral prefabricated scaffold access as specified in OSHA 29 CFR 1926.451(e).",
+        "Train all scaffold users on safe scaffold access procedures and the prohibition of crossbraces for access.",
+        "Ensure a competent person inspects and confirms safe access before work begins and during scaffold use."
+      ],
+      "potential_accident_outcomes": [
+        "Falls resulting in fractures, head injuries, and fatalities (Documents 3, 17, 19).",
+        "Serious injury from falls due to unstable or improper access (Documents 3, 17)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access. Several types of access are permitted: ladders, stair towers, ramps, walkways, and integral prefabricated frames."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)",
+          "excerpt": "Employees erecting and dismantling supported scaffolding must have a safe means of access provided when a competent person has determined feasibility."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1506479.015 - December 8, 2020",
+          "excerpt": "Employee fell approximately ten feet while stepping off the scaffold and using an improperly assembled end-frame ladder, sustaining fracture and head injury."
+        }
+      ]
+    },
+    {
+      "issue_title": "Inadequate Electrical Safety: Tools and Materials Near Energized Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Maintaining clearance from energized power lines is critical to prevent electrocution, burns, and fatalities. Past incident reports recount multiple fatalities and severe injuries from contact with or proximity to energized lines during scaffold erection or movement (e.g., electrocution from scaffold poles contacting power lines). OSHA requires specific clearance distances and adherence to electrical safety practices (29 CFR 1926.451(f)(6)). The presence of tools/materials within prohibited proximity poses an immediate life-threatening hazard.",
+      "finding": "The inspection found that tools and materials are being stored or used within less than the required 10 feet clearance from energized power lines. This violation exposes employees to severe electrical hazards including electrocution and burns.",
+      "action_items": [
+        "Immediately relocate all tools and materials to maintain the minimum required clearance of at least 10 feet from energized power lines.",
+        "Coordinate with utility companies as necessary to de-energize or insulate power lines when work must occur near them, in accordance with OSHA guidance.",
+        "Train employees on electrical hazards, clearance requirements, and safe practices around power lines.",
+        "Conduct regular inspections by competent persons to verify compliance with electrical safety standards on the scaffold site."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution resulting in fatalities and hospitalizations (Documents 6, 7, 9, 10).",
+        "Electrical burns requiring hospitalization (Documents 8, 9, 10)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Scaffolds and materials must maintain specific clearance distances from energized power lines. Work closer than specified distances requires de-energizing, relocation, or protective coverings."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1497090.015 - October 13, 2020",
+          "excerpt": "Employee electrocuted when scaffold pole came into contact with a live 7,200-volt power line approximately 10 feet away."
+        },
+        {
+          "reference": "Accident Summary Nr: 1584732.015 - March 10, 2022",
+          "excerpt": "Two employees electrocuted and another severely burned when a pump jack scaffold contacted overhead power lines."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

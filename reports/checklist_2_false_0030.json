@@ -1,0 +1,78 @@
+{
+  "summary_of_major_safety_issues": [
+    "Unsafe scaffold access: Employees are climbing on crossbraces to get on and off the scaffold.",
+    "Front face distance non-compliance: The scaffold front face is not within 14 inches of the work (or 3 inches for outrigger scaffolds)."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsafe Scaffold Access via Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Climbing on crossbraces is explicitly prohibited by OSHA 1926.451(e)(1). Unsafe access methods have historically resulted in falls and serious injuries, including fatal incidents as documented in accident reports where improper access led to fatal falls from height.",
+      "finding": "Employees are currently using crossbraces to access the scaffold. This method is unsafe and prohibited by OSHA standards because crossbraces do not provide proper footing or handholds. Unsafe access can cause loss of balance and falls from height, as emphasized in OSHA regulations and supported by accident report evidence showing fatal and serious injuries due to improper scaffold access.",
+      "action_items": [
+        "Immediately prohibit use of crossbraces as a means of access or egress.",
+        "Install and maintain compliant scaffold access methods such as ladders, stair towers, ramps, or prefabricated scaffold frames in accordance with OSHA standard 1926.451(e).",
+        "Train employees on the safe methods of scaffold access and the dangers of climbing crossbraces.",
+        "Have a competent person regularly inspect scaffold access for compliance and safety.",
+        "Post signage at scaffold access points to remind employees that crossbraces are not to be used for access."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from height resulting in traumatic injuries or fatalities.",
+        "Fractures, head injuries, and amputations as observed in historical incidents related to unsafe scaffold climbing."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access. Several types of access are permitted such as ladders and stair towers."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 (Document 3)",
+          "excerpt": "Employee installing scaffold was killed falling from scaffold, emphasizing the risk of unsafe access."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015 (Document 17)",
+          "excerpt": "Employee fell approximately ten feet due to improper scaffold end-frame ladder assembly, highlighting the hazards of unsafe scaffold access."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Front Face Distance Exceeds OSHA Limits",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "The scaffold front face distance exceeds OSHA maximum limits of 14 inches for supported scaffolds and 3 inches for outrigger scaffolds (1926.451(b)(3)). Excessive distance can increase fall risk due to instability, loss of balance over open edges, and decreased guardrail efficacy. Historical accident reports show falls caused or contributed to by improper scaffold platform setup and unstable positions.",
+      "finding": "The scaffold platform front face is not positioned within the OSHA-specified clearance of 14 inches from the work surface (3 inches for outrigger scaffolds). This non-compliance presents a fall hazard as employees are exposed to greater risk of losing balance or stepping off the platform, particularly if guardrails or personal fall arrest systems are not adequate.",
+      "action_items": [
+        "Adjust scaffold platform positioning to ensure the front face is within 14 inches of the work surface or 3 inches for outrigger scaffolds.",
+        "Where positioning is limited by work conditions, provide guardrail systems or personal fall arrest systems to protect employees from fall hazards.",
+        "Train employees about the hazard of extended scaffold platform distances and the necessity of positioning within OSHA limits to reduce fall risk.",
+        "Have a competent person inspect scaffold platform distances regularly."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffold platforms leading to fractures, blunt force trauma, or fatalities.",
+        "Loss of balance and potential falls enhanced by exposed scaffold edges."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "The front edge of all platforms shall not be more than 14 inches from the face of the work unless guardrails or fall arrest systems are used. For outrigger scaffolds, the maximum distance is 3 inches."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 (Document 3)",
+          "excerpt": "A fatal fall involving scaffold installation deficiencies highlights risks including platform setup and positioning."
+        },
+        {
+          "reference": "Accident Summary Nr: 1483200.015 (Document 18)",
+          "excerpt": "An employee fell 12 feet from scaffold after standing near a gap caused by missing guardrail, underlying the importance of proper platform layout and guardrails."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,86 @@
+{
+  "summary_of_major_safety_issues": [
+    "Tools and materials are not kept at least 10 feet away from energized power lines.",
+    "Scaffold footings are not level, sound, rigid, or capable of supporting the loaded scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Inadequate clearance of tools and materials from energized power lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Proximity to energized power lines without the required clearance poses an immediate electrocution hazard, as documented by multiple fatal and severe injury incidents in the provided accident reports involving contact with power lines.",
+      "finding": "Tools and materials were observed near energized power lines without maintaining the minimum 10-foot clearance distance required for electrical safety. This violation significantly increases the risk of electrical shock or electrocution to employees working on or near the scaffold. Historical accident reports demonstrate fatalities and severe injuries resulting from such contact with electrified conductors, underscoring the critical nature of this safety issue.",
+      "action_items": [
+        "Immediately relocate tools and materials to maintain at least a 10-foot distance from energized power lines.",
+        "Coordinate with the utility company to de-energize or relocate power lines if close work is unavoidable.",
+        "Train employees on electrical hazards and proper clearance requirements per OSHA standards 1926.451(f)(6) and 1926.454(a).",
+        "Implement and enforce strict site rules prohibiting the placement of tools or materials near energized conductors."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution resulting in fatality (Document 6, 7, 9)",
+        "Electrical burns requiring hospitalization (Document 5, 8, 10)",
+        "Electric shock injuries with possible permanent disability (Document 9, 10)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines to prevent accidental contact."
+        },
+        {
+          "reference": "29 CFR 1926.454(a)",
+          "excerpt": "All employees must be trained by a qualified person to recognize electrical hazards and safe scaffold use."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 1497090.015 / 10/13/2020",
+          "excerpt": "Employee electrocuted when scaffold pole contacted a live 7,200-volt primary power line during erection."
+        },
+        {
+          "reference": "Accident Report Nr: 1584732.015 / 03/10/2022",
+          "excerpt": "Two employees electrocuted and one hospitalized from electrical burns when a pump jack scaffold contacted overhead power lines."
+        }
+      ]
+    },
+    {
+      "issue_title": "Unstable scaffold footings lacking level, sound, and rigid foundation",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Improper scaffold footing can lead to scaffold instability, increasing the risk of collapse or tip-over incidents with potential for severe injury or fatality, as demonstrated in accident contexts where inadequate foundations contributed to scaffold falls.",
+      "finding": "The scaffold footings inspected were not level, sound, or sufficiently rigid to safely support the scaffold's loaded weight. This deficiency compromises the structural integrity and stability of the scaffold system, posing a substantial fall and collapse hazard to workers. OSHA standards require secure footing to prevent settling or displacement, critical factors to scaffold safety.",
+      "action_items": [
+        "Ensure all scaffold footings are placed on level, sound, and rigid surfaces such as base plates and mud sills.",
+        "Avoid using unstable objects (e.g., bricks, blocks) as footing supports.",
+        "Engage a competent person to verify footing adequacy before scaffold use.",
+        "Reinforce or replace deficient footing components to meet OSHA requirements per 1926.451(c)(2)."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tip-over or collapse leading to falls and blunt force trauma injuries (Document 2, 3)",
+        "Falls from scaffold due to instability causing fractures and fatalities (Document 3, 4)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation that is level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold structural members must be plumbed and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 1502297.015 / 11/13/2020",
+          "excerpt": "Fatal fall from scaffold's eighth tier with scaffold improperly stabilized contributing to fall."
+        },
+        {
+          "reference": "Accident Report Nr: 1580494.015 / 02/15/2022",
+          "excerpt": "Fall from bracket scaffold after the top clamp bolt loosened, indicating instability concerns."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

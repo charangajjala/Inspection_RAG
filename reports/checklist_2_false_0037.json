@@ -1,0 +1,85 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold sections are not all pinned or appropriately secured.",
+    "Footings are not level, sound, rigid, and capable of supporting the loaded scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Improperly Secured Scaffold Sections",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Scaffold sections that are not pinned or properly secured significantly increase the risk of scaffold collapse or displacement. Historic accident reports document fatal falls and crushing injuries resulting from scaffolds tipping or collapsing due to improper securing of components.",
+      "finding": "During the inspection, it was observed that not all scaffold sections were pinned or appropriately secured. This condition compromises the structural integrity of the scaffold, increasing the risk of collapse or sudden displacement while in use. Given the critical role of pins and secure connections in maintaining scaffold stability, this deficiency presents a serious hazard to workers on and near the scaffold.",
+      "action_items": [
+        "Immediately secure all scaffold sections using appropriate pins or locking devices as per manufacturer guidelines and OSHA standards.",
+        "Conduct a full structural inspection of the scaffold assembly to verify all connections are secure before allowing employee access.",
+        "Implement routine inspection procedures before each shift to ensure section connections remain secure.",
+        "Provide training to scaffold erectors and users about the safe securing and pinning practices of scaffold sections."
+      ],
+      "potential_accident_outcomes": [
+        "Fall from scaffold due to collapse or section failure resulting in serious injury or fatality.",
+        "Crushing injuries from scaffold tipping or falling over edge."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(d)(10)",
+          "excerpt": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect the structural integrity."
+        },
+        {
+          "reference": "29 CFR 1926.451(a)(6)",
+          "excerpt": "Component construction and design must ensure secure connections to support intended loads."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet from scaffold after climbing on unstable platform; scaffold section integrity compromised leading to fatal injury."
+        },
+        {
+          "reference": "Accident Summary Nr: 0215000",
+          "excerpt": "Failure to properly secure scaffold sections contributed to scaffold instability and fall hazards."
+        }
+      ]
+    },
+    {
+      "issue_title": "Inadequate Scaffold Footings",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Unstable or inadequate footings can lead to scaffold settling or tipping, posing a high risk of scaffold collapse. OSHA standards require level, sound, and rigid footings to maintain scaffold stability. Historical accident reports show severe injuries and fatalities associated with scaffold collapse due to footing failure.",
+      "finding": "Inspection revealed that the scaffold footings are not level, sound, rigid, or otherwise capable of supporting the loaded scaffold adequately. This condition endangers the entire scaffold's stability and may result in hazardous displacement or collapse under the loads imposed during use.",
+      "action_items": [
+        "Ensure footings are constructed on firm, level, and rigid surfaces such as mud sills or base plates in compliance with OSHA requirements.",
+        "Remove any unstable objects or makeshift supports from scaffold footings.",
+        "Conduct a competent person assessment of footing conditions daily and after any event that may affect footing stability.",
+        "Provide training to scaffold erectors on proper footing selection and installation procedures."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping or collapse causing falls from height.",
+        "Worker injuries from falling scaffold components or platform displacement."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(2)(i-iii)",
+          "excerpt": "Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement. Unstable objects shall not be used to support scaffolds or platform units."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Improper footing and unstable scaffold foundation contributed to fatal fall from scaffold."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015",
+          "excerpt": "Makeshift platform breaks due to inadequate support causing fatal fall."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

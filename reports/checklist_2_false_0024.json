@@ -1,0 +1,94 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "Footings are not level, sound, rigid, and capable of supporting the loaded scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Guardrails and Toeboards Missing on All Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Lack of guardrails and toeboards on all open sides significantly increases the risk of falls from elevation, which has historically resulted in fatal and severe injuries, as documented in several accident reports involving scaffold falls leading to fatal blunt force trauma and serious fractures. OSHA standards mandate guardrail installation to prevent falls and provide falling object protection, confirming the critical severity of this deficiency.",
+      "finding": "The absence of guardrails and toeboards on all open scaffold sides presents a serious fall hazard to workers on the platform and increases the likelihood of falling objects striking personnel below. This non-compliance exposes employees to fall risks demonstrated to cause fatal and severe injuries in past incidents involving scaffold guardrail failures or removals.",
+      "action_items": [
+        "Install guardrail systems along all open sides and ends of the scaffold in accordance with OSHA 29 CFR 1926.451(g)(4) prior to releasing the scaffold for use.",
+        "Ensure toeboards, screens, or equivalent falling object protection measures are installed to prevent materials or tools from falling and injuring workers below, per OSHA 29 CFR 1926.451(h)",
+        "Inspect guardrail components for structural integrity, proper height, and no use of prohibited materials such as steel or plastic banding.",
+        "Train employees on the necessity and use of guardrails and toeboards, emphasizing fall and falling object hazard prevention."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffold platforms (Documents 1, 2, 3, 4, 13, 18)",
+        "Severe fractures and traumatic injuries from falls (Documents 17, 18)",
+        "Crush injuries due to scaffold overturn without guardrail protection (Document 2)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through installation of toeboards, screens, or guardrail systems."
+        },
+        {
+          "reference": "29 CFR 1926.451(g)(4)(xiii)",
+          "excerpt": "Steel or plastic banding must not be used as a toprail or midrail."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee installing scaffold fell 48 feet due to lack of fall protection and died from blunt force head injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015",
+          "excerpt": "Employee died when makeshift scaffold platform broke; absence of proper platform construction and fall protection factors contributed."
+        },
+        {
+          "reference": "Accident Summary Nr: 155680.015",
+          "excerpt": "Two employees electrocuted while moving pump jack scaffold near power lines; fall protection and safe setup critical."
+        }
+      ]
+    },
+    {
+      "issue_title": "Improper Footings: Scaffold Supports Not Level, Sound, or Rigid",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Unstable or inadequate footings risk scaffold collapse or displacement which has been associated with fatal scaffold tip-overs and falls in multiple accident reports. OSHA specifically requires firm and stable foundations to safely support scaffold loads, as instability can precipitate catastrophic falls or structural failures.",
+      "finding": "The scaffold footings do not meet OSHA requirements for being level, sound, rigid, and capable of supporting the loaded scaffold, jeopardizing scaffold stability. This deficiency undermines the structural integrity, potentially leading to swaying, tipping, or collapse, posing a life-threatening hazard to employees on or near the scaffold.",
+      "action_items": [
+        "Ensure all scaffold poles, legs, posts, frames, and uprights bear on base plates and adequate firm foundation such as mud sills, as required by OSHA 29 CFR 1926.451(c)(2).",
+        "Remove any unstable objects or materials supporting scaffold components and replace them with approved footing methods.",
+        "Conduct a competent person inspection to verify footing stability prior to scaffold use and after any event that may affect footing condition.",
+        "Provide training to employees and supervisors regarding footing requirements and the risks associated with improper foundations."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping and collapse resulting in fatal injuries (Documents 2, 3)",
+        "Severe fractures and crushed injuries from unexpected scaffold failure (Documents 17, 13)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold structural members must be plumbed and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet from scaffold where improper bracing and footing contributed to fall."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015",
+          "excerpt": "Scaffold platform failure likely related to improper supports resulted in fatal fall."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

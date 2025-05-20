@@ -1,0 +1,164 @@
+[
+  {
+    "Checklist ID": "checkBox01",
+    "Question": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+    "Required Actions": [
+      {
+        "Action": "Require hard hats",
+        "Exact PDF Excerpt": "To protect employees from falling hand tools, debris, and other small objects, install toeboards, screens, guardrail systems, debris nets, catch platforms, canopy structures, or barricades. In addition, employees must wear hard hats [29 CFR 1926.451(h)(1), 29 CFR 1926.451(h)(2), and 29 CFR 1926.451(h) (3)].",
+        "Source PDF": "cklscaffold.pdf",
+        "Page Number": 15
+      },
+      {
+        "Action": "also ensure toeboards, screens, guardrails, nets, catch platforms, or canopy structures are used if falling object hazards exist.",
+        "Exact PDF Excerpt": "To protect employees from falling hand tools, debris, and other small objects, install toeboards, screens, guardrail systems, debris nets, catch platforms, canopy structures, or barricades. In addition, employees must wear hard hats. 1926.451(h)(1) & (2) and (3)",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 13
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox02",
+    "Question": "Are guardrails and toeboards in place on all open sides?",
+    "Required Actions": [
+      {
+        "Action": "Install guardrails and toeboards on all open sides for scaffolds over 10 ft above a lower level unless exceptions apply.",
+        "Exact PDF Excerpt": "The standard requires employers to protect each employee on a scaffold more than 10 feet (3.1 m) above a lower level from falling to that lower level [ level from falling to that lower level [29 29 CFR 1926.451(g)(1)]. To ensure adequate protection, install guardrails along all open sides and ends before releasing the scaffold for use by employees, other than the erection and dismantling crews [29 CFR 1926.451(g)(4) (i) (i)].",
+        "Source PDF": "cklscaffold.pdf",
+        "Page Number": 7
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox03",
+    "Question": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+    "Required Actions": [
+      {
+        "Action": "Provide ladders (hook-on, attachable), stair towers, ramps, or integral access frames. Never use crossbraces for access.",
+        "Exact PDF Excerpt": "Employers must provide access when the scaffold platforms are more than 2 feet (0.6 m) above or below a point of access [29 CFR 1926.451(e)(1)]. Direct access is acceptable when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surfaces [29 CFR 1926.451(e)(8)]. The standard prohibits the use of crossbraces as a means of access [29 CFR 1926.451(e)(1)].",
+        "Source PDF": "cklscaffold.pdf",
+        "Page Number": 13
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox04",
+    "Question": "Are all sections pinned or appropriately secured?",
+    "Required Actions": [
+      {
+        "Action": "Use pins, coupling mechanisms, or equivalent locking devices to secure scaffold sections.",
+        "Exact PDF Excerpt": "Frames and panels shall be joined together vertically by coupling or stacking pins or equivalent means.",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 45,
+        "Reference In doc": "1926.452(c)(3)"
+      },
+      {
+        "Action": "Where uplift can occur which would displace scaffold end frames or panels, the frames or panels shall be locked together vertically by pins or equivalent means.",
+        "Exact PDF Excerpt": "Where uplift can occur which would displace scaffold end frames or panels, the frames or panels shall be locked together vertically by pins or equivalent means.",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 45,
+        "Reference In doc": "1926.452(c)(4)"
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox05",
+    "Question": "Does the scaffold meet electrical safety clearance distances?",
+    "Required Actions": [
+      {
+        "Action": "Maintain at least 10 feet clearance from power lines",
+        "Exact PDF Excerpt": "Scaffolds shall not be erected, used, dismantled, altered, or moved such that they or any conductive material handled on them might come closer to exposed and energized power lines than the following distances.",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 40,
+        "Reference In doc": "1926.451(f)(7)"
+      },
+      {
+        "Action": "If working closer than specified clearances, utility company must de-energize, relocate, or shield the lines.",
+        "Exact PDF Excerpt": "materials may be closer to power lines than specified above where such clearance is necessary for performance of work, and only after the utility company, or electrical system operator, has been notified of the need to work closer and the utility company, or electrical system operator, has deenergized the lines, relocated the lines, or installed protective coverings to prevent accidental contact with the lines. ",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 41,
+        "Reference In doc": "1926.451(f)(6)"
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox06",
+    "Question": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+    "Required Actions": [
+      {
+        "Action": "Provide ladders (hook-on, attachable), stair towers, ramps, or integral access frames. Never use crossbraces for access.",
+        "Exact PDF Excerpt": "Employers must provide access when the scaffold platforms are more than 2 feet (0.6 m) above or below a point of access [29 CFR 1926.451(e)(1)]. Direct access is acceptable when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surfaces [29 CFR 1926.451(e)(8)]. The standard prohibits the use of crossbraces as a means of access [29 CFR 1926.451(e)(1)].",
+        "Source PDF": "cklscaffold.pdf",
+        "Page Number": 13
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox07",
+    "Question": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+    "Required Actions": [
+      {
+        "Action": "Store tools and materials at least 10 ft away from power lines, unless lines are de-energized or shielded.",
+        "Exact PDF Excerpt": "Scaffolds shall not be erected, used, dismantled, altered, or moved such that they or any conductive material handled on them might come closer to exposed and energized power lines than the following distances.",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 40,
+        "Reference In doc": "1926.451(f)(4)"
+      },
+      {
+        "Action": "Use tag lines or equivalent measures when swinging loads might contact the scaffold.",
+        "Exact PDF Excerpt": "Where swinging loads are being hoisted onto or near scaffolds such that the loads might contact the scaffold, tag lines or equivalent measures to control the loads shall be used. ",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 41,
+        "Reference In doc": "1926.451(f)(9)"
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox08",
+    "Question": "Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+    "Required Actions": [
+      {
+        "Action": "Ensure scaffold platforms are within 14 in. of work face (or 3 ft for outrigger). Otherwise, provide guardrails.",
+        "Exact PDF Excerpt": "The standard requires employers to protect each employee on a scaffold more than 10 feet (3.1 m) above a lower level from falling to that lower level. 1926.451(g)(1) To ensure adequate protection, install guardrails along all open sides and ends before releasing the scaffold for use by employees, other than the erection and dismantling crews. 1926.451(g)(4) Guardrails are not required, however, • When the front end of all platforms are less than 14 inches (36 centimeters) from the face of the work; 1926.451(b)(3) • When outrigger scaffolds are 3 inches (8 centimeters) or less from the front edge; 1926.451(b)(3)(l) • When employees are plastering and lathing 18 inches (46 centimeters) or less from the front edge. 1926.451(b)(3)(ii)",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 8
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox09",
+    "Question": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+    "Required Actions": [
+      {
+        "Action": "Scaffold poles, legs, etc., must rest on baseplates and mudsills",
+        "Exact PDF Excerpt": "Supported scaffolds’ poles, legs, posts, frames, and uprights must bear on base plates and mud sills, or other adequate firm foundation.  1926.451(c)(2)(i) and (ii) ",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 9
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox10",
+    "Question": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+    "Required Actions": [
+      {
+        "Action": "Ensure components rest on proper baseplates and mudsills or other firm foundation.",
+        "Exact PDF Excerpt": "Supported scaffolds’ poles, legs, posts, frames, and uprights must bear on base plates and mud sills, or other adequate firm foundation.  1926.451(c)(2)(i) and (ii) ",
+        "Source PDF": "osha3150.pdf",
+        "Page Number": 9
+      }
+    ]
+  },
+  {
+    "Checklist ID": "checkBox11",
+    "Question": "Check for safe access. Do not use the cross braces as a ladder for access or exit.",
+    "Required Actions": [
+      {
+        "Action": "Crossbraces are prohibited as access. Provide ladders, ramps, stairs, or direct access if scaffold is within 14 inches in horizontal & 24 inches in vertical from surface.",
+        "Exact PDF Excerpt": "Employers must provide access when the scaffold platforms are more than 2 feet (0.6 m) above or below a point of access [29 CFR 1926.451(e)(1)]. Direct access is acceptable when the scaffold is not more than 14 inches (36 cm) horizontally and not more than 24 inches (61 cm) vertically from the other surfaces [29 CFR 1926.451(e)(8)]. The standard prohibits the use of crossbraces as a means of access [29 CFR 1926.451(e)(1)]. ",
+        "Source PDF": "cklscaffold.pdf",
+        "Page Number": 13
+      }
+    ]
+  }
+]

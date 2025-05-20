@@ -1,0 +1,87 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold sections are not all pinned or appropriately secured.",
+    "Tools and materials are not maintained at least 10 feet away from energized power lines."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsecured Scaffold Sections",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Scaffold components that are not pinned or securely fastened risk displacement or collapse under load, which could lead to falls from heights, a leading cause of fatalities as documented in multiple accident reports.",
+      "finding": "The inspection revealed that scaffold sections are not all pinned or appropriately secured. Per OSHA standards 1926.451(d)(10), scaffold components must be inspected for visible defects and secured properly before use. Failure to do so can allow scaffold instability and collapse. Accident reports show fatal falls and severe injuries have occurred when scaffold parts failed or became loose during use or erection.",
+      "action_items": [
+        "Immediately secure all scaffold sections with appropriate pins or locking devices as specified by OSHA standards.",
+        "Conduct a competent person inspection prior to each shift and after any event that could affect scaffold integrity.",
+        "Train scaffold erectors and users to verify that all sections are pinned and secured before scaffold use.",
+        "Implement a scaffold component maintenance program to ensure continued integrity."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from elevation due to scaffold collapse or displacement.",
+        "Severe traumatic injuries including fractures and blunt force trauma.",
+        "Fatalities due to falls or being struck by falling scaffold components."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(d)(10)",
+          "excerpt": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect the structural integrity and to authorize prompt corrective action."
+        },
+        {
+          "reference": "29 CFR 1926.451(d)(11)",
+          "excerpt": "Scaffold components shall be secured properly to prevent unintended movement or failure."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet when scaffold failed during installation due to improper erection."
+        },
+        {
+          "reference": "Accident Summary Nr: 0215000",
+          "excerpt": "Scaffold collapse and failure to secure components contributed to fatal and severe injuries."
+        }
+      ]
+    },
+    {
+      "issue_title": "Improper Clearance of Tools and Materials from Energized Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain the required clearance distance from energized power lines exposes employees to electrocution hazards, which have historically resulted in fatalities and severe electrical burns according to accident reports.",
+      "finding": "The inspection identified that tools and materials on the scaffold are not maintained at least 10 feet away from energized power lines as required. OSHA 1926.451(f)(6) mandates specific clearance distances to prevent electrical contact hazards. Numerous accident reports document electrocutions and electrical burns resulting from inadequate clearance between scaffolding equipment and power lines.",
+      "action_items": [
+        "Relocate tools and materials on the scaffold to maintain a minimum 10-foot clearance from energized power lines.",
+        "Notify utility companies when work must be conducted closer than the clearance distance and arrange de-energizing or insulating measures.",
+        "Conduct hazard assessments before beginning work near power lines.",
+        "Train employees on electrical hazards and safe distances from energized conductors."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution fatalities or serious electrical burns to employees.",
+        "Electrical shock injuries leading to hospitalization.",
+        "Secondary accidents resulting from sudden electrical incidents."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Scaffolds and materials shall maintain specific clearance distances from energized power lines to prevent accidental contact."
+        },
+        {
+          "reference": "29 CFR 1926.451(f)(3)",
+          "excerpt": "Employer must coordinate power line de-energizing or insulation when workers must be closer than the required clearance distances."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1583121.015",
+          "excerpt": "Two employees were electrocuted and a third suffered electrical burns when a pump jack scaffold contacted overhead power lines."
+        },
+        {
+          "reference": "Accident Summary Nr: 1455864.015",
+          "excerpt": "Employees received electrical burns when working near energized power lines with inadequate clearance."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

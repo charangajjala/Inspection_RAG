@@ -1,0 +1,77 @@
+{
+  "summary_of_major_safety_issues": [
+    "Safe access to scaffold without climbing on crossbraces is not provided.",
+    "Footings are not level, sound, rigid, and capable of supporting the loaded scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsafe Scaffold Access Due to Use of Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Use of crossbraces for scaffold access is strictly prohibited by OSHA (1926.451(e)(1)) because it poses a severe fall hazard. Multiple accident reports document fatal falls associated with improper scaffold access, including falls from high elevations and injuries due to unstable climbing methods.",
+      "finding": "The current scaffold setup requires employees to climb on crossbraces to access the scaffold. This violates OSHA standards that explicitly prohibit using crossbraces as a means of access. Climbing crossbraces increases the risk of falls from height, which have historically resulted in serious injuries and fatalities as evidenced in past accident reports where employees fell due to unstable or improper scaffold access.",
+      "action_items": [
+        "Immediately provide compliant safe access methods such as ladders, stair towers, ramps, or integral prefabricated scaffold access as stipulated under OSHA 1926.451(e)(2)-(6).",
+        "Remove any need to climb on crossbraces by repositioning or installing proper access points.",
+        "Train employees on proper scaffold access and the prohibition of crossbraces for climbing.",
+        "Ensure competent person inspects scaffold access points prior to use and routinely thereafter."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from elevation with blunt force trauma (Accident Nr: 131063.015, fall from 48 feet)",
+        "Severe injuries including fractures and traumatic injuries caused by falling from scaffold due to improper access (Documents 1, 4, 17)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access. Several types of access are permitted: ladders, stair towers, ramps, and walkways."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(2)-(6)",
+          "excerpt": "When scaffold platforms are more than 2 feet above or below a point of access, acceptable access methods include portable ladders, hook-on ladders, attachable ladders, stair towers, ramps, and integral prefabricated scaffold access."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell to concrete pavement from eighth tier scaffold after climbing, resulting in fatal blunt force trauma to the head."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015",
+          "excerpt": "Employee fell approximately 10 feet while stepping off scaffold platform and accessing ladder due to improper scaffold assembly and access."
+        }
+      ]
+    },
+    {
+      "issue_title": "Unstable and Inadequate Scaffold Footings",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "OSHA standards require that scaffold footings be level, sound, rigid, and capable of supporting loaded scaffolds without displacement (1926.451(c)(2)). Failure to comply can lead to scaffold instability, tipping, and collapse. Accident reports show incidents with scaffold falls and tipping associated with inadequate footing or base support.",
+      "finding": "The scaffold's footings do not meet OSHA requirements for level, sound, rigid, and adequate load support as indicated by the inspection checklist result. This compromises scaffold stability and raises the risk of displacement or collapse during use, potentially causing falls or serious injuries.",
+      "action_items": [
+        "Ensure footings are placed on baseplates and mudsills or other firm foundations that are level and capable of supporting maximum intended load.",
+        "Remove any unstable objects or makeshift supports used under scaffold footings.",
+        "Have a competent person verify footing adequacy before scaffold use and after any movement or adjustment.",
+        "Implement regular footing inspections as part of scaffold safety program."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping leading to falls from height and crushing injuries (Accident Nr: 0215000).",
+        "Fatal falls caused by scaffold collapse or displacement (Various reports)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 0215000",
+          "excerpt": "Employee fell from scaffold after scaffold tipped due to improper support and load distribution."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

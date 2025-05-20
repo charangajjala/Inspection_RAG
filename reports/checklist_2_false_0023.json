@@ -1,0 +1,88 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "The scaffold front face is not within 14 inches of the work (or within 3 feet for outrigger scaffolds)."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Guardrails and Toeboards Missing on Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Lack of guardrails and toeboards on open sides significantly increases the risk of falls from elevation, which are among the leading causes of scaffold-related fatalities and serious injuries according to historical accident reports.",
+      "finding": "The scaffold inspected does not have guardrails and toeboards installed on all open sides as required. Guardrail systems must be installed along all open sides and ends before the scaffold is released for use by employees other than erection/dismantling crews, according to OSHA standards 1926.451(g)(4). The absence of these critical fall protection measures exposes workers to high risk of falls, which can lead to fatal or severe injuries as documented in several past accidents.",
+      "action_items": [
+        "Immediately install compliant guardrails on all open sides and ends of the scaffold.",
+        "Install toeboards to prevent tools and materials from falling off the platform.",
+        "Ensure guardrails comply with OSHA requirements regarding height, strength, and construction materials.",
+        "Train employees on the importance of never using scaffolds without proper guardrail systems in place."
+      ],
+      "potential_accident_outcomes": [
+        "Fall from elevation resulting in serious injury or fatality.",
+        "Crushing injuries from falling scaffold components or materials."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms. Guardrail systems shall be installed before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(g)(4)(xiii)",
+          "excerpt": "Steel or plastic banding must not be used as a toprail or a midrail."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Checklist; Guardrails and toeboards in place on all open sides?",
+          "excerpt": "Checklist item non-compliant (False)."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet after climbing onto scaffold's eighth tier platform and died from blunt force trauma to the head."
+        },
+        {
+          "reference": "Accident Summary Nr: 018038.015 (Impalement accident)",
+          "excerpt": "Employee fell from scaffold platform and was impaled by steel stake due to missing protection from impalement hazards."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Front Face Not Within Required Distance from Work",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Exceeding the maximum permitted distance from the work face increases the likelihood of loss of balance and falls. OSHA standards specify strict limits to maintain worker safety and prevent falls.",
+      "finding": "The scaffold front face distance from the work surface exceeds the allowable limit of 14 inches horizontally (and 3 inches for outrigger scaffolds). This non-compliance creates a significant fall hazard since employees must lean or reach more than permitted to perform work, which increases the likelihood of losing balance or falling. OSHA standard 1926.451(b)(3) defines these limits to maximize worker stability and safety.",
+      "action_items": [
+        "Adjust the scaffold placement or use outriggers to ensure the front edge of all platforms is within 14 inches (36 cm) of the work face or 3 inches (8 cm) for outrigger scaffolds.",
+        "Train workers to verify and maintain scaffold proximity during use.",
+        "Conduct periodic supervisory inspections to monitor compliance with scaffold proximity requirements."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffolds due to overreaching or loss of balance at excessive distance from the work face.",
+        "Increased risk of falls from scaffold edges leading to serious injuries or fatalities."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "The front edge of all platforms shall not be more than 14 inches (36 cm) from the face of the work, unless guardrail systems or personal fall arrest systems are used."
+        },
+        {
+          "reference": "29 CFR 1926.451(b)(3)(i) and (ii)",
+          "excerpt": "Maximum distance from the face for outrigger scaffolds shall be 3 inches (8 cm); Maximum distance for plastering and lathing operations shall be 18 inches (46 cm)."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Checklist; Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+          "excerpt": "Checklist item non-compliant (False)."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1483200.015",
+          "excerpt": "Employee fell approximately 12 feet after positioning himself on mid-rail due to removed guardrails and excessive platform gap."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

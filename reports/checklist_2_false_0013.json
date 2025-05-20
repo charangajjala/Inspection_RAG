@@ -1,0 +1,78 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees are not wearing hard hats while working on or near the scaffold.",
+    "The scaffold does not meet electrical safety clearance distances."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Usage by Employees on or Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Failure to wear hard hats exposes employees to head trauma from falling objects or scaffold components, a frequent cause of serious injury or fatality according to accident reports and OSHA standards emphasizing falling object protection.",
+      "finding": "The inspection revealed that employees working on or near the scaffold were not wearing hard hats. OSHA standards specify that employees on scaffolds must wear hard hats and be provided with additional protection such as toeboards or guardrails to prevent injuries from falling tools, debris, and other objects. Non-use of hard hats significantly increases the risk of head injuries in the event of falling objects or scaffold structural failures, as indicated in multiple accident reports where lack of protective headgear contributed to fatal or severe injuries.",
+      "action_items": [
+        "Immediately enforce a mandatory hard hat policy for all workers on or near the scaffold.",
+        "Provide suitable hard hats to all employees if not already supplied.",
+        "Train employees on the importance of head protection and the hazards of falling objects on scaffolds.",
+        "Install and maintain additional fall object protection measures such as toeboards, debris nets, or guardrail systems as appropriate."
+      ],
+      "potential_accident_outcomes": [
+        "Head injuries including blunt force trauma and fatality from falling objects reported in scaffold-related incidents.",
+        "Increased likelihood of severe injury or death if falling debris strikes unprotected heads."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h) - Falling Object Protection",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "An employee working from a scaffold power washing the exterior suffered fatal head injuries and was not trained or protected properly."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Does Not Meet Electrical Safety Clearance Distances",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain required clearance distances from energized power lines is a critical hazard that directly causes electrocution incidents and fatalities, as demonstrated repeatedly in accident reports where scaffolds in close proximity to live electrical conductors led to death or severe electrical burns.",
+      "finding": "The scaffold does not comply with OSHA-required electrical safety clearance distances. This presents a critical risk as scaffolds near energized power lines can result in accidental contact, electrical arcs, or conduction through scaffold components causing electrocution or severe electrical burns. The accident history provided includes multiple fatalities and serious injuries stemming from scaffold components or employees making contact with or being too close to high-voltage conductors. OSHA standards mandate specific clearance distances and protective measures to prevent these hazards.",
+      "action_items": [
+        "Conduct immediate risk assessment and reposition scaffold to meet or exceed OSHA clearance distances from all energized power lines as specified in 29 CFR 1926.451(f)(6).",
+        "Coordinate with power companies to de-energize, insulate, or relocate power lines during scaffold work if required.",
+        "Provide electrical hazard training to all scaffold users emphasizing the dangers of work near energized conductors.",
+        "Implement controls such as barrier systems or warning signs to prevent accidental contact.",
+        "Assign a competent person to oversee and verify compliance with electrical clearance safety requirements at all times."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution deaths and injuries including electrical burns documented in multiple scaffold incident reports.",
+        "Severe shock injuries requiring hospitalization resulting from scaffold contact with energized lines."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6) - Clearance Distances from Power Lines",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and energized power lines, with exceptions only if utility companies have deenergized or insulated the lines."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1497090.015",
+          "excerpt": "An employee was electrocuted when a scaffold pole contacted a live 7,200-volt power line approximately 10 inches from scaffold."
+        },
+        {
+          "reference": "Accident Summary Nr: 1584732.015",
+          "excerpt": "Two employees were electrocuted and a third suffered electrical burns when moving a pump jack scaffold that contacted overhead power lines."
+        },
+        {
+          "reference": "Accident Summary Nr: 1455864.015",
+          "excerpt": "Three employees were hospitalized due to electrical burns after scaffold pole contact with overhead powerlines."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

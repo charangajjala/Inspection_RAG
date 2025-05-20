@@ -1,0 +1,83 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees involved with or near the scaffold are not wearing hard hats.",
+    "Guardrails and toeboards are not in place on all open sides."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Use by Employees Involved with or Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Failure to wear hard hats exposes employees to serious head injuries from falling objects, a hazard frequently cited by OSHA and documented in multiple scaffold accident reports involving head trauma and fatality.",
+      "finding": "Employees involved with or near the scaffold are not wearing hard hats as required. This deficiency places workers at significant risk of head injuries from falling tools, debris, or other materials commonly encountered on scaffold sites. Historical incidents demonstrate that lack of head protection on scaffolds has contributed to severe injuries and fatalities, highlighting the critical need for consistent use of hard hats.",
+      "action_items": [
+        "Require and enforce the use of hard hats for all employees working on or near scaffolds at all times.",
+        "Provide training to employees on the importance of head protection and related scaffold hazards as per OSHA training requirements.",
+        "Conduct regular site safety audits to ensure compliance with hard hat usage.",
+        "Make hard hats readily available at scaffold access points and enforce disciplinary actions for non-compliance."
+      ],
+      "potential_accident_outcomes": [
+        "Head injuries including blunt force trauma and fatality as reported in Accident Report Nr 131063.015 and other documented cases."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h)",
+          "excerpt": "Employees on scaffolds shall be provided with protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, guardrail systems or by wearing appropriate personal protective equipment including hard hats."
+        },
+        {
+          "reference": "29 CFR 1926.454(a)",
+          "excerpt": "All employees must be trained by a qualified person to recognize hazards including falling object hazards and the proper use of personal protective equipment such as hard hats."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "An employee died after falling from a scaffold and struck his head; it was determined neither employees nor project foreman had training, and hard hat use was lacking."
+        }
+      ]
+    },
+    {
+      "issue_title": "Guardrails and Toeboards Missing on All Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Absence of guardrails and toeboards on open sides significantly increases the risk of fatal falls and injuries from falling objects. OSHA mandates guardrail systems on all open scaffold platforms except limited exceptions. Fatal falls reported in accident summaries resulted from lack or removal of guardrails.",
+      "finding": "Guardrails and toeboards are not installed on all open sides as required. This creates a major fall hazard for employees working on the scaffold and increases the likelihood of falls to lower levels or ground, potentially resulting in severe injury or death. Historical accident reports reference incidents where missing or removed guardrails directly contributed to fatal falls from heights exceeding 5 feet.",
+      "action_items": [
+        "Immediately install guardrails and toeboards on all open scaffold sides and ends before releasing the scaffold for use by employees, other than erection/dismantling crews.",
+        "Ensure guardrails meet height and strength requirements as per OSHA, including toprails, midrails, and toeboards.",
+        "Train employees on the importance of guardrails and prohibitions against removing or bypassing fall protection systems.",
+        "Implement inspection protocols by competent persons to verify guardrail integrity before each work shift."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffold platforms as documented in multiple OSHA accident reports including fall heights of 5 feet to over 48 feet with fatal outcomes."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "The front edge of all platforms shall not be more than 14 inches from the face of the work, unless guardrail systems are erected to protect employees from fall hazards."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1503879.015",
+          "excerpt": "An 18-foot fall occurred when a fabricated welded frame scaffold tipped over the guardrails on the leading edge; one employee died from crushing injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet to concrete pavement from scaffold lacking adequate fall protection systems."
+        },
+        {
+          "reference": "Accident Summary Nr: 1483200.015",
+          "excerpt": "Employee fell 12 feet after guardrail removal from scaffold, resulting in fractures and hospitalization."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

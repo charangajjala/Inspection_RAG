@@ -1,0 +1,83 @@
+{
+  "summary_of_major_safety_issues": [
+    "Electrical safety clearance distances not met, creating risk of electrocution or electrical injuries.",
+    "Front face distance from the work exceeds allowed limits for scaffold or outrigger scaffold, increasing fall hazard risk."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Electrical Safety Clearance Distance Non-Compliance",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain required clearance distances from energized power lines or sources has repeatedly resulted in fatalities and severe electrical injuries as evidenced by multiple accident reports documenting electrocution and electrical burns.",
+      "finding": "The scaffold does not meet the required electrical safety clearance distances from energized power lines. OSHA standards (29 CFR 1926.451(f)(6)) strictly require specific clearance distances to prevent contact with power lines. Historical accident reports confirm that contact or close proximity to energized power lines has resulted in fatalities and serious injuries due to electrocution or electrical burns. Ensuring clearances and appropriate work stoppage or line de-energization is critical to scaffold safety.",
+      "action_items": [
+        "Conduct immediate review and measurement of clearance distances from the scaffold to any energized power lines.",
+        "If clearance is insufficient, cease work in those areas until power lines are de-energized, relocated, or adequately insulated.",
+        "Implement strict protocols to maintain or increase minimum safe distances according to OSHA 29 CFR 1926.451(f)(6).",
+        "Train employees on electrical hazard recognition and safe work practices near power lines.",
+        "Coordinate with utility companies as necessary to ensure worker protection.",
+        "Establish and enforce strict PSC (Powerline Safety Control) measures during scaffold erection or use."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution fatalities",
+        "Severe electrical burns",
+        "Electrical shock injuries requiring hospitalization"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances. Scaffolds and scaffold components shall not be closer to power lines than stipulated distances unless the electrical utility company has de-energized or relocated lines, or effective insulation is installed."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Guide, Document 24",
+          "excerpt": "Q. Are there required clearance distances between scaffolds and power lines? A. Yes. The standard requires specific clearance distances."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 1584732.015 - Two employees are electrocuted, one incurs electrical burns",
+          "excerpt": "At 8:30 a.m. on March 10, 2022, two employees moving a pump jack scaffold contacted overhead powerlines and died due to electrocution; a third employee was hospitalized."
+        },
+        {
+          "reference": "Accident Report Nr: 1497090.015 - Employee electrocuted erecting pump jack scaffold near power lines",
+          "excerpt": "Employee #1 was electrocuted when erecting a scaffold pole that contacted a live 7,200-volt power line located approximately 10 inches from the scaffold."
+        }
+      ]
+    },
+    {
+      "issue_title": "Excessive Distance from Scaffold Front Face to Work Surface",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "OSHA standards require proximity of scaffold platforms to the work surface to reduce fall hazards and maintain stability. Deviations from these distances have been linked to falls due to overreaching or loss of balance.",
+      "finding": "The scaffold platform front face exceeds the maximum permissible distance from the work surface: 14 inches for standard scaffolds and 3 inches for outrigger scaffolds, per OSHA 29 CFR 1926.451(b)(3). Excessive distance increases the risk of employees losing balance, overreaching, and falling from height. This non-compliance compromises both fall protection effectiveness and worker stability during tasks.",
+      "action_items": [
+        "Adjust scaffold platform placement to ensure the front face is within prescribed OSHA limits from the work surface.",
+        "Install or verify presence of guardrails and other fall protection systems if work requires platforms not meeting proximity requirements.",
+        "Train workers on safe positioning and the risks associated with working beyond scaffold platform edges.",
+        "Regularly inspect and verify scaffold positioning relative to the work surface during erection and use."
+      ],
+      "potential_accident_outcomes": [
+        "Falls resulting in fractures, blunt force trauma, or fatal injuries"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "The front edge of all platforms shall not be more than 14 inches from the face of the work unless fall protection measures are in place. For outrigger scaffolds, the maximum distance is 3 inches."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 131063.015 - Scaffold fall fatality from height",
+          "excerpt": "Employee fell 48 feet when climbing scaffold tiers; improper platform and fall protection contributed."
+        },
+        {
+          "reference": "Accident Report Nr: 1483200.015 - Employee fell 12 feet from scaffold with guardrail section removed",
+          "excerpt": "Employee slipped and fell due to gap between scaffold and building caused by missing guardrail sections."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,87 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees involved with or near the scaffold are not wearing hard hats.",
+    "The front face of the scaffold is not within 14 inches of the work (or within 3 inches for outrigger scaffolds)."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Use Among Employees Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Not wearing hard hats exposes employees to serious head injury risks from falling objects, a common and critical hazard documented in scaffold-related accidents and emphasized in OSHA's falling object protection requirements.",
+      "finding": "The inspection revealed that employees involved with or near the scaffold are not wearing hard hats. This violation of basic PPE protocols significantly increases the risk of head injuries from falling tools, debris, or scaffold components, as highlighted in OSHA regulations and supported by accident histories where lack of head protection contributed to severe injuries or fatalities.",
+      "action_items": [
+        "Immediately enforce mandatory use of hard hats for all employees working on or near scaffolds.",
+        "Conduct refresher training on scaffold-related hazards and the importance of wearing personal protective equipment, including hard hats.",
+        "Implement regular site audits to ensure compliance with PPE requirements.",
+        "Provide sufficient numbers of ANSI-approved hard hats at the worksite to ensure accessibility."
+      ],
+      "potential_accident_outcomes": [
+        "Head injury resulting from impact with falling scaffold components or tools.",
+        "Fatal traumatic brain injuries documented in past scaffold fall incidents.",
+        "Increased severity of injuries from electrical burns or falls without head protection."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h)(1) - Falling object protection",
+          "excerpt": "In addition to wearing hardhats each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects."
+        },
+        {
+          "reference": "OSHA Scaffold Use Guide (Documents 2 and 24)",
+          "excerpt": "To protect employees from falling objects, hard hats and additional protection such as toeboards, screens, or guardrail systems must be used."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 131063.015 (Document 1)",
+          "excerpt": "Employee fell working from scaffold saddle side attachment without proper training or protection, resulting in fatal head injuries."
+        },
+        {
+          "reference": "Accident Report Nr: 1505237.015 (Document 7)",
+          "excerpt": "Employees electrocuted after scaffold pole toppled into power lines, highlighting the need for PPE including hard hats to reduce injury severity."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Front Face Distance Exceeds OSHA-Compliant Limits",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for  outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "Moderate",
+      "risk_justification": "The scaffold platform being too far from the work surface can cause workers to overreach, lose balance, or become unstable, increasing the risk of falls and injuries as supported by OSHA regulations and documented accidents.",
+      "finding": "The scaffold platform is not within the required 14 inches of the work face or within 3 inches for outrigger scaffolds. This non-compliance presents a fall hazard due to the need for workers to overreach, which may compromise balance and scaffold stability. OSHA standards require maintaining proximity to the work to reduce fall risk.",
+      "action_items": [
+        "Adjust scaffold positioning to ensure the platform is within 14 inches of the work face for supported scaffolds, or within 3 inches for outrigger scaffolds.",
+        "Conduct a competent person evaluation for scaffold placement and stability to meet OSHA platform proximity requirements.",
+        "Train employees on proper scaffold positioning and risks of overreaching.",
+        "Regularly inspect scaffold alignment and correct deviations promptly."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffolds due to instability and overreaching.",
+        "Fractures, blunt force trauma, or fatal injuries from scaffold-related falls.",
+        "Loss of balance leading to contact with hazardous objects or surfaces."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "Except where guardrails or personal fall arrest systems are used, the front edge of all platforms shall not be more than 14 inches from the face of the work."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Guide (Documents 36 and 37)",
+          "excerpt": "The front end of all platforms shall not be more than 14 inches from the face of the work, and 3 inches for outrigger scaffolds."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1483200.015 (Document 18)",
+          "excerpt": "Employee fell through a gap where guardrails were removed, highlighting danger of platform spacing and fall hazards."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015 (Document 17)",
+          "excerpt": "Employee fell approximately 10 feet due to improper scaffold ladder assembly and unsafe egress related to scaffold configuration."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,47 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees involved with or near the scaffold are not wearing hard hats."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Personal Protective Equipment: Hard Hats Not Worn by Employees Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "The absence of hard hats on employees working on or near scaffolds substantially increases the risk of head injury from falling objects, debris, or accidental contact with scaffold components, which is a leading cause of fatal and serious injuries as documented in several accident reports.",
+      "finding": "Employees on or in proximity to the scaffold were observed not wearing hard hats. This non-compliance with fundamental personal protective equipment requirements exposes workers to significant hazards including head trauma from falling materials or tools. OSHA standards explicitly require that each employee on a scaffold be provided with protection from falling objects by wearing hard hats along with other protective measures such as toeboards, screens, or guardrail systems (1926.451(h)). Historical accident reports demonstrate fatalities and severe injuries resulting from lack of head protection during scaffold operations.",
+      "action_items": [
+        "Immediately enforce the mandatory use of hard hats for all employees working on or near scaffolds at all times during operations.",
+        "Conduct safety briefings and training sessions emphasizing the importance of wearing hard hats and other personal protective equipment.",
+        "Implement supervisory checks and penalties for non-compliance to ensure consistent adherence to head protection policies.",
+        "Provide and maintain adequate quantities of hard hats onsite to prevent shortages or excuses for non-use.",
+        "Review and update site safety protocols to integrate PPE compliance checks as part of daily scaffold inspections."
+      ],
+      "potential_accident_outcomes": [
+        "Head injuries from falling tools or debris resulting in hospitalizations or fatalities (Document 1).",
+        "Severe blunt force trauma due to scaffold-related accidents (Documents 1 and 3)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures that contain or deflect the falling objects."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Training Requirements 1926.454(a)",
+          "excerpt": "All employees must be trained by a qualified person to recognize the hazards associated with the type of scaffold being used and how to control or minimize those hazards, including fall hazards and falling object hazards."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1502297.015 (Document 1)",
+          "excerpt": "An employee fell and sustained fatal head injuries partly due to lack of training and proper fall protection including hazards from scaffold use."
+        },
+        {
+          "reference": "Accident Summary Nr: 131063.015 (Document 3)",
+          "excerpt": "Employee killed after falling from scaffold; underscoring need for protection from hazards including falling objects."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

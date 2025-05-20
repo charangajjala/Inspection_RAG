@@ -1,0 +1,86 @@
+{
+  "summary_of_major_safety_issues": [
+    "Sections not pinned or appropriately secured.",
+    "Unsafe access method: use of cross braces for scaffold access or exit."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsecured Scaffold Sections",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Unsecured scaffold sections compromise the stability and structural integrity of the scaffold, potentially leading to collapse or falls from height. Historical accident reports highlight severe injuries and fatalities caused by scaffold failures due to improper securing (e.g., falls from scaffold components or platform collapse).",
+      "finding": "The scaffold sections at this site were observed not to be pinned or secured adequately. This violates fundamental scaffold erection requirements, increasing the risk of displacement, tipping, or collapse under load or during use. OSHA standards require scaffold components to be securely fastened to prevent shifting or accidental detachment during use, ensuring the platform's structural integrity and employee safety.",
+      "action_items": [
+        "Immediately pin and secure all scaffold sections following manufacturer's specifications and OSHA requirements.",
+        "Conduct a comprehensive inspection by a competent person to verify that all components are properly fastened before scaffold use.",
+        "Train and regularly re-train scaffold erectors and inspectors on correct pinning and securing procedures.",
+        "Implement routine documented checks for scaffold stability and securement before each work shift."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls due to scaffold collapse or displacement (Document 1 and Document 3).",
+        "Serious traumatic injuries from falls (Document 2).",
+        "Crushing injuries from scaffold tipping or structural failure (Document 2)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(d)(10) Scaffold inspection requirements",
+          "excerpt": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect structural integrity."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3) Supported scaffold bracing",
+          "excerpt": "Structural members must be plumbed and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet after accessing scaffold's higher tier due to improper installation resulting in fatal injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 1486759.015",
+          "excerpt": "Scaffold tipped over due to unstable platform leading to fatal crushing injuries."
+        }
+      ]
+    },
+    {
+      "issue_title": "Improper Scaffold Access Using Cross Braces",
+      "checklist_item": "Check for safe access. Do not use the cross braces as a ladder for access or exit.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Using cross braces as means of access violates OSHA's explicit prohibition and is a known risk factor for falls, causing serious and sometimes fatal injuries. Numerous accident investigations cite unsafe climbing practices on scaffolds as causative factors for falls and injuries.",
+      "finding": "Scaffold access/egress at the site involves climbing on cross braces, which are not designed or permitted to be used as ladders. This unsafe practice increases the risk of slips, trips, and falls from height. OSHA mandates use of designated safe access methods such as ladders, stair towers, ramps, or integral scaffold frames for climbing.",
+      "action_items": [
+        "Remove all use of cross braces for access and replace with OSHA-compliant access methods (e.g., ladders, stair towers).",
+        "Provide training and supervision to ensure employees understand and comply with safe scaffold access requirements.",
+        "Install, inspect, and maintain suitable access equipment before scaffold use.",
+        "Conduct regular audits to verify that all scaffold access methods are safe and compliant."
+      ],
+      "potential_accident_outcomes": [
+        "Falls resulting in fractures, head injuries, or death due to unsafe climbing (Document 17, Document 18).",
+        "Accidents during dismantling or erection due to unsafe access causing serious injuries to hands or limbs (Document 15)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(2-6)",
+          "excerpt": "Permitted access types include portable ladders, stair towers, ramps, walkways, and prefabricated scaffold access frames."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1506479.015",
+          "excerpt": "Employee fell approximately 10 feet when using scaffold end frame bars improperly as access points."
+        },
+        {
+          "reference": "Accident Summary Nr: 1524482.015",
+          "excerpt": "Employee injured fingers while dismantling brace improperly while climbing ladder."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

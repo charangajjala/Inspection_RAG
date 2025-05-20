@@ -1,0 +1,93 @@
+{
+  "summary_of_major_safety_issues": [
+    "Tools and materials are not kept at least 10 feet away from energized power lines.",
+    "The scaffold front face is not within 14 inches of the work (or within 3 feet for outrigger scaffolds)."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Improper Clearance of Tools and Materials from Energized Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Contact with energized power lines represents a critical electrocution hazard, as demonstrated by multiple documented fatalities and severe injuries in historical accident reports resulting from proximity or contact with power lines during scaffold work.",
+      "finding": "The inspection revealed that tools and materials are not maintained at the required minimum distance of 10 feet from energized power lines. OSHA standards and accident reports emphasize the importance of maintaining adequate clearance to prevent electrical contact. Failures to maintain these clearances have resulted in electrocutions, severe burns, and fatalities. The close proximity of scaffold materials to live power lines significantly increases worker exposure to electrical hazards.",
+      "action_items": [
+        "Immediately relocate all tools and materials to be at least 10 feet away from energized power lines.",
+        "Establish and enforce strict no-storage zones around power lines at the worksite.",
+        "Coordinate with utility companies to de-energize or insulate power lines when close work is unavoidable.",
+        "Train all employees to recognize electrical hazards and safe distances from energized conductors.",
+        "Perform regular inspections to ensure ongoing compliance with clearance requirements."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution resulting in fatality.",
+        "Severe electrical burns requiring hospitalization.",
+        "Electric shock injuries leading to permanent disability."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines to prevent electrical hazards and contacts."
+        },
+        {
+          "reference": "29 CFR 1926.451(f)(8)",
+          "excerpt": "Employees are prohibited from working on scaffolds covered with ice, snow, or slippery materials except for removal, highlighting the importance of environmental safety near hazards such as power lines."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 155680.015 (03/10/2022)",
+          "excerpt": "Two employees were electrocuted and a third suffered electrical burns when moving a pump jack scaffold that contacted overhead power lines."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505542.015 (12/08/2020)",
+          "excerpt": "An employee sustained electrical burns from close proximity to high-voltage conductors approximately 10 inches from the scaffold."
+        },
+        {
+          "reference": "Accident Summary Nr: 1497090.015 (10/13/2020)",
+          "excerpt": "An employee was electrocuted after a scaffold pole contacted a live 7,200-volt primary power line."
+        }
+      ]
+    },
+    {
+      "issue_title": "Non-Compliant Scaffold Front Face Distance from Work",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Scaffolds with platforms exceeding the specified distance from the work face increase fall hazard exposure. OSHA mandates these limits to optimize stability and fall protection. Historical incidents attribute falls and injuries to improper platform positioning relative to the work surface.",
+      "finding": "The scaffold platform's front face does not comply with the required proximity to the work surface, exceeding 14 inches for general scaffolds and exceeding 3 feet for outrigger scaffolds. This non-compliance elevates the risk of workers losing balance or falling due to unstable footing or overreaching. The standard is designed to minimize fall hazards by ensuring that the platform is close enough to the work area to allow safe and stable work conditions.",
+      "action_items": [
+        "Adjust scaffold platform positioning to meet the maximum 14 inch (36 cm) horizontal distance from the face of the work for supported scaffolds.",
+        "Ensure that outrigger scaffolds do not extend more than 3 inches (8 cm) from the work face.",
+        "Verify scaffold platform stability and secure proper bracing after adjustment.",
+        "Train employees on safe positioning and potential fall hazards related to platform distance.",
+        "Conduct periodic compliance audits during scaffold use to maintain proper distances."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffold due to loss of balance when overreaching.",
+        "Fractures and serious injuries from falls between scaffold and work surfaces.",
+        "Fatal falls from height caused by unstable platforms."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "The front edge of all platforms shall not be more than 14 inches from the face of the work, and 3 inches for outrigger scaffolds."
+        },
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrails shall be installed along all open sides and ends before use to prevent falls; improper platform distance can compromise guardrail effectiveness."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1483200.015 (06/18/2020)",
+          "excerpt": "Employee slipped and fell 12 feet when a section of the scaffold guardrail was removed and was positioned unsafely relative to the building."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015 (12/10/2020)",
+          "excerpt": "An employee fell approximately 10 feet when stepping off the scaffold platform due to improper assembly and access issues."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

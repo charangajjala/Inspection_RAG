@@ -1,0 +1,81 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "Not all scaffold sections are pinned or appropriately secured."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Guardrails and Toeboards Missing on Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "The absence of guardrails and toeboards on all open sides presents an immediate fall hazard, which historically has resulted in fatal injuries and severe trauma as documented in multiple past scaffold-related accidents within the construction industry.",
+      "finding": "The inspection revealed that guardrails and toeboards are missing on all open sides of the scaffold. According to OSHA standard 29 CFR 1926.451(g)(4), guardrail systems must be installed along all open sides and ends of scaffold platforms before releasing them for use by employees other than erection/dismantling crews. Additionally, toeboards or equivalent protection are required to prevent tools and materials from falling off platforms, protecting workers below. Failure to provide these protections significantly increases the risk of falls and injuries.",
+      "action_items": [
+        "Install guardrail systems on all open sides and ends of the scaffold platforms prior to use.",
+        "Ensure toeboards are installed properly along all edges to prevent falling objects.",
+        "Verify that the guardrails comply with OSHA specifications, including height, strength, and material standards.",
+        "Train employees on the importance of fall protection and proper scaffold usage.",
+        "Implement routine inspections by a competent person to ensure guardrails and toeboards remain in place and compliant."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffold platforms (e.g. fall heights of 5 to 54 feet resulting in death or serious injury).",
+        "Falls resulting in traumatic injuries such as fractures, blunt force trauma, and amputations.",
+        "Workers falling between gaps caused by missing guardrails or toeboards leading to severe injury."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015, 11/13/2020",
+          "excerpt": "Employee fell from an unsupported scaffold platform without guardrails and died from blunt force trauma."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015, 10/22/2021",
+          "excerpt": "Employee fell and died when makeshift platform broke and lacked proper guardrails."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Sections Not Pinned or Securely Fastened",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Unsecured scaffold sections can cause scaffold instability or collapse, placing workers at risk of falling or being crushed. Historical incidents show scaffold tipping and collapse resulted in fatalities and severe injuries.",
+      "finding": "The scaffold sections were found not fully pinned or appropriately secured. OSHA requires that all scaffold components be securely fastened to prevent displacement, swaying, or collapse during use. The structural integrity of the scaffold depends significantly on the correct connection and securement of all scaffold sections (29 CFR 1926.451(c)(3)). Lack of secure connections increases the likelihood of scaffold instability and accidents.",
+      "action_items": [
+        "Ensure all scaffold sections are pinned and fastened securely as per manufacturer and OSHA requirements.",
+        "Conduct a thorough inspection by a competent person prior to scaffold use to verify connections are stable.",
+        "Provide training for scaffold erectors and inspectors on proper section fastening.",
+        "Replace or repair any loose or missing pins or securing devices immediately.",
+        "Implement a documented regular inspection and maintenance program to ensure ongoing scaffold integrity."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping and collapse resulting in fatal chest crushing injuries.",
+        "Falls due to scaffold instability causing fractures or blunt force trauma.",
+        "Entrapment or crush injuries from falling scaffold components."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall be plumb and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1486759.015, 08/04/2020",
+          "excerpt": "Scaffold tipped over due to inadequate securing, fatally injuring an employee and severely injuring others."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,81 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees not wearing hard hats while working on or near the scaffold, exposing them to head injury risks from falling objects.",
+    "Unsafe scaffold access due to employees climbing on crossbraces, which is prohibited and creates fall hazards."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Use by Employees on or Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "The failure to wear hard hats significantly increases the risk of serious head injuries from falling hand tools, debris, or other materials, as consistently highlighted in OSHA standards (1926.451(h)) and accident reports documenting head trauma fatalities and injuries.",
+      "finding": "During the inspection, it was observed that employees working on or near the scaffold were not wearing hard hats. OSHA standards require that employees on scaffolds be provided with adequate protection from falling objects, which includes wearing hard hats. Failure to comply elevates the risk of head injuries from falling debris or tools, as supported by multiple accident reports where head injuries proved fatal or debilitating.",
+      "action_items": [
+        "Require all employees working on or near scaffolds to wear approved hard hats at all times.",
+        "Conduct mandatory training and awareness sessions on the importance of wearing personal protective equipment (PPE), including hard hats.",
+        "Supervisors must regularly monitor compliance and enforce hard hat policies immediately.",
+        "Establish disciplinary measures for non-compliance with PPE requirements to maintain a safe work environment."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal head injury due to impact from falling scaffold components or tools (Document 1, Document 3)",
+        "Severe head trauma resulting in hospitalization or permanent disability (Document 1, Document 18)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures that contain or deflect the falling objects."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Guidelines",
+          "excerpt": "All employees must wear hard hats to mitigate the risk of injuries from falling objects on scaffold sites."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 131063.015 (Document 1)",
+          "excerpt": "Employee died due to head injuries after a fall from scaffold; investigation found employees untrained and exposed to falling object hazards without adequate protection."
+        }
+      ]
+    },
+    {
+      "issue_title": "Unsafe Scaffold Access By Climbing Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Climbing crossbraces as a means of access is explicitly prohibited due to the significant risk of falls and resulting fatalities, as confirmed by OSHA standards (1926.451(e)(1)) and multiple fatal fall accident reports.",
+      "finding": "The scaffold lacks safe and compliant access methods, as employees are observed climbing on crossbraces to enter or exit the scaffold. OSHA explicitly prohibits the use of crossbraces for scaffold access due to instability and high fall risk. This condition poses a critical hazard, as scaffolds are elevated work platforms where falls can result in severe injuries or death.",
+      "action_items": [
+        "Install and ensure use of proper scaffold access such as ladders, stair towers, ramps, walkways, or integral prefabricated scaffold access systems.",
+        "Remove any practices involving crossbraces as access immediately and retrain employees on safe scaffold access methods.",
+        "Assign a competent person to evaluate scaffold access feasibility and site conditions regularly.",
+        "Conduct periodic inspections to verify that safe access is maintained and enforced."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal fall from height due to improper climbing access (Document 3, Document 17)",
+        "Serious fractures or head injuries from falls (Document 17, Document 18)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access. Safe access must be provided by ladders, stair towers, ramps, walkways, or prefabricated scaffold systems."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(9)",
+          "excerpt": "Employees erecting or dismantling supported scaffolds must have a safe means of access, adequately designed and feasible under site conditions."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 131063.015 (Document 3)",
+          "excerpt": "Employee fell from scaffold during installation after improper access; fall from 48 feet was fatal."
+        },
+        {
+          "reference": "Accident Report Nr: 1506479.015 (Document 17)",
+          "excerpt": "Employee fell approximately 10 feet when scaffold end-frame ladder rungs were improperly assembled resulting in fall injury."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

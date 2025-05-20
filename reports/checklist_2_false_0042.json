@@ -1,0 +1,101 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold does not meet electrical safety clearance distances, posing a significant electrocution hazard.",
+    "Footings are not level, sound, rigid, and/or capable of supporting the loaded scaffold, risking scaffold instability and potential collapse."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Electrical Safety Clearance Distances Not Met",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain electrical clearance distances has historically resulted in fatal electrocution incidents as documented in multiple accident reports involving contact with overhead power lines, causing death and severe electrical burns.",
+      "finding": "The scaffold does not meet the required electrical clearance distances from energized power lines, which exposes employees to the risk of electrocution and electrical burns. Historical accident reports reveal multiple severe and fatal injuries caused by scaffolds being too close to power lines, underscoring the critical nature of maintaining proper clearance to prevent contact or arcing.",
+      "action_items": [
+        "Immediately conduct a site assessment to identify all overhead power lines near scaffold work areas.",
+        "Relocate scaffold structures to ensure compliance with OSHA required clearance distances or arrange for the utility company to de-energize, relocate, or shield the lines before continuing work.",
+        "Establish and enforce strict exclusion zones around energized power lines where scaffold erection, use, or movement is prohibited until hazards are controlled.",
+        "Provide employee training on electrical hazards and proper distances to maintain from power lines.",
+        "Install physical barriers or warning signs around power line proximity areas to prevent accidental contact."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution and fatal injuries from scaffold contact with energized power lines (Documents 5, 6, 7, 8, 9)",
+        "Electrical burns requiring hospitalization (Documents 5, 6, 7, 8, 9)",
+        "Multiple worker fatalities and serious injuries due to scaffold/equipment contact with power lines (Documents 5, 6, 9)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines and prohibits scaffold erection or use closer than these distances unless power lines are de-energized, relocated or guarded."
+        },
+        {
+          "reference": "29 CFR 1926.451(f)(8)",
+          "excerpt": "Employees are prohibited from working on scaffolds covered with snow, ice, or slippery materials except to remove these substances. Work near energized power lines also mandates similar precautionary restrictions."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 5 (1505542.015 12/08/2020)",
+          "excerpt": "Employee severely burned due to contact or proximity to high-voltage conductors approximately 10 inches from scaffold during securing plywood."
+        },
+        {
+          "reference": "Accident Report 6 (1497090.015 10/13/2020)",
+          "excerpt": "Employee electrocuted when scaffold pole contacted live 7,200-volt power lines located near scaffold work area."
+        },
+        {
+          "reference": "Accident Report 9 (1584732.015 03/10/2022)",
+          "excerpt": "Two employees electrocuted and another hospitalized by electrical burns when pump jack scaffold contacted overhead powerlines."
+        },
+        {
+          "reference": "Accident Report 7 (1505237.015 12/07/2020)",
+          "excerpt": "Electrocution incident caused by scaffold poles toppling onto energized power lines due to wind gusts."
+        }
+      ]
+    },
+    {
+      "issue_title": "Improper Scaffold Footings - Not Level, Sound, or Rigid",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Unstable or unsound footings have caused scaffold collapse or tipping in past accidents, leading to fatal falls and severe injuries due to loss of scaffold structural integrity.",
+      "finding": "The scaffold footings are not properly levelled, sound, rigid, and/or otherwise inadequate to support the loaded scaffold safely. This condition threatens the overall stability of the scaffold and increases the likelihood of tipping or collapse under load, posing serious fall hazards to workers.",
+      "action_items": [
+        "Ensure footings are inspected and verified by a competent person to be level, sound, and rigid before scaffold erection.",
+        "Use base plates and mud sills or equivalent firm foundations as specified by OSHA standards.",
+        "Remove and replace any unstable or unsuitable materials supporting the scaffold legs, posts, or uprights.",
+        "Prohibit use of unstable objects such as loose bricks, blocks, or debris as scaffold supports.",
+        "Establish routine footing inspections especially after scaffold movement or environmental changes."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping or collapse resulting in fall injuries or fatalities (Documents 2, 3)",
+        "Fractures, blunt force trauma, or crushing injuries from falls due to footing failure (Documents 3, 4, 12, 17)",
+        "Multiple employee injuries requiring hospitalization caused by scaffold instability (Documents 2, 3)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation, which shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall be plumb and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 2 (08/04/2020)",
+          "excerpt": "Scaffold tipped over due to weight and instability causing fatal crushing injuries when collapsing."
+        },
+        {
+          "reference": "Accident Report 3 (11/13/2020)",
+          "excerpt": "Fall from scaffold following improper scaffold erection or stability measures, resulting in fatal blunt force trauma."
+        },
+        {
+          "reference": "Accident Report 12",
+          "excerpt": "Platform was not fully planked or decked and was less than 18 inches; inadequate footing and impalement hazards contributed to accident."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

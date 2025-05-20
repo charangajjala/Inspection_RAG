@@ -1,0 +1,81 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "The scaffold does not meet electrical safety clearance distances."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Guardrails and Toeboards Missing on Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "The absence of guardrails and toeboards on all open sides significantly increases the risk of falls from elevation and potential falling object hazards, which have been shown in accident reports to cause severe injuries and fatalities.",
+      "finding": "During inspection, it was noted that guardrails and toeboards were not installed on all open sides of the scaffold platform. OSHA requires guardrail systems to be installed along all open sides and ends of platforms before the scaffold is used by employees other than erection and dismantling crews. Lack of these protective systems exposes workers to fall hazards and endangers nearby workers and passersby from falling tools or debris. Historical accident evidence demonstrates that missing guardrails contribute to fatal falls and serious injuries.",
+      "action_items": [
+        "Install compliant guardrail systems along all open sides and ends of the scaffold platform before use.",
+        "Install toeboards to prevent falling objects from dislodging off platforms.",
+        "Inspect guardrails regularly to ensure integrity and compliance.",
+        "Train employees on the importance of using and maintaining guardrails and toeboards."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffolds, as detailed in accident reports involving falls ranging from 5 to 54 feet.",
+        "Serious injuries including fractures, blunt force trauma, and crushing injuries due to falls or falling objects."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet from a scaffold and died from blunt force traumatic injury to his head, demonstrating risks of missing fall protection."
+        },
+        {
+          "reference": "Accident Summary Nr: 1502297.015",
+          "excerpt": "Employee fell 5 feet from scaffold and subsequently died; investigation showed lack of training and proper scaffold installation including missing guardrails."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Does Not Meet Electrical Safety Clearance Distances",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain required clearance distances from energized power lines exposes workers to serious risk of electrocution and fatal electrical injuries, as demonstrated by multiple documented accidents.",
+      "finding": "The scaffold was found to be closer than the OSHA-required clearance distances to energized power lines. OSHA standards mandate specific separation distances to prevent accidental contact or proximity hazards. Working near energized conductors without proper clearance or power disconnection has caused fatalities and serious electrical burns in previous incidents. This non-compliance significantly endangers workers' lives and must be immediately rectified.",
+      "action_items": [
+        "Determine and maintain required minimum clearance distances from energized power lines per OSHA standards.",
+        "Coordinate with utility companies to de-energize or relocate power lines when necessary before scaffold erection and use.",
+        "Install insulating barriers or use other protective measures to prevent accidental contact with power lines.",
+        "Train employees on electrical hazard recognition and safe work practices near power lines."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution fatalities and severe electrical burns as detailed in multiple accident reports involving pump jack scaffolds contacting power lines.",
+        "Hospitalizations for electrical shock injuries requiring treatment."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Specific clearance distances are required between scaffolds and energized power lines to prevent accidental contact."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1505542.015",
+          "excerpt": "Employee was electrocuted when scaffold pole came within 10 inches of high-voltage conductors; agreement to avoid work until line removal was ignored."
+        },
+        {
+          "reference": "Accident Summary Nr: 1584732.015",
+          "excerpt": "Two employees died due to electrocution while moving a pump jack scaffold that contacted overhead power lines."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

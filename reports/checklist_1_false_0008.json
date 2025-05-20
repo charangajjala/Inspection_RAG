@@ -1,0 +1,47 @@
+{
+  "summary_of_major_safety_issues": [
+    "Supported scaffold poles, legs, posts, frames, and uprights are not properly supported on baseplates and mudsills."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsupported Scaffold Legs, Posts, and Uprights",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Improper or unstable footing support on scaffold legs, posts, frames, and uprights significantly increases the risk of scaffold collapse or displacement, which can cause fatal or severe injuries as supported by multiple OSHA standards and accident reports.",
+      "finding": "The scaffold legs, posts, frames, and uprights at this site are not properly bearing on baseplates and mudsills or other adequate firm foundation. OSHA standards (1926.451(c)(2)) require supported scaffold poles, legs, posts, frames, and uprights to bear on base plates and mud sills or other firm foundations that are level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement. Failure to meet these requirements creates a serious hazard of scaffold instability and potential collapse. Historical accident reports document fatal falls and severe injuries resulting from scaffold instability and collapse when scaffold components were improperly supported or braced.",
+      "action_items": [
+        "Immediately review and replace or install baseplates and mudsills under all scaffold legs, posts, frames, and uprights to ensure firm, level, and rigid footing.",
+        "Verify that footings are capable of supporting the loaded scaffold without settling or displacement in accordance with OSHA 1926.451(c)(2).",
+        "Ensure no unstable objects (e.g., bricks, blocks, makeshift devices) are used to support scaffold components.",
+        "Assign a competent person to inspect scaffold footing and support conditions before each work shift and after any event that could affect scaffold integrity.",
+        "Provide training to scaffold erectors and inspectors emphasizing the importance of proper footing and foundation for scaffold stability."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold collapse resulting in fatal falls or crushing injuries.",
+        "Severe traumatic injuries due to sudden scaffold displacement or tipping."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "1926.451(c)(3)",
+          "excerpt": "Structural members such as poles, legs, posts, frames, and uprights must be plumbed and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "Employee fell 48 feet from scaffold; multiple fatalities and injuries linked to scaffold instability and improper installation."
+        },
+        {
+          "reference": "Accident Summary Nr: 0215000",
+          "excerpt": "Scaffold-related fatalities and severe injuries caused by collapse or instability, underscoring the criticality of proper scaffold footing and support."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

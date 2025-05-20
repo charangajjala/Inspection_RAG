@@ -1,0 +1,52 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides of the scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Absence of Guardrails and Toeboards on All Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "The absence of guardrails and toeboards on open sides of scaffolds significantly increases the risk of falls and falling objects, which are among the leading causes of scaffold-related fatalities and severe injuries, as evidenced by historical accident reports involving falls from unguarded platforms and falling debris.",
+      "finding": "During inspection, it was observed that guardrails and toeboards are missing on one or more open sides of the scaffold. This lack of fall protection exposes employees to significant fall hazards and increases the possibility of objects falling from the scaffold, endangering workers below and nearby personnel. OSHA standards 29 CFR 1926.451(g)(4) emphasize the mandatory installation of guardrails on all open sides and ends prior to releasing scaffolds for use by employees other than erection or dismantling crews. Additionally, failure to provide toeboards or equivalent protection violates requirements for protection from falling hand tools, debris, and other small objects as outlined in 29 CFR 1926.451(h).",
+      "action_items": [
+        "Immediately install guardrail systems on all open sides and ends of the scaffold in accordance with OSHA 29 CFR 1926.451(g)(4).",
+        "Install toeboards or other falling object protection measures such as screens, debris nets, or canopy structures to prevent falling materials, consistent with OSHA requirements 29 CFR 1926.451(h).",
+        "Ensure guardrails meet strength and height requirements, including midrails and toprails capable of withstanding prescribed forces.",
+        "Train all scaffold users and supervisors on the importance of complete guardrail and falling object protections to prevent injuries.",
+        "Conduct routine inspections by a competent person to verify that guardrails and toeboards remain intact, properly installed, and functional."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal or severe fall injuries similar to those described in previous incidents where employees fell from scaffolds lacking guardrails (e.g., fatal head injuries from falls of 48 feet).",
+        "Injury due to being struck by falling tools or debris, as highlighted in past accident reports of scaffold-related falling object incidents.",
+        "Non-fatal fractures and hospitalization resulting from falls off unprotected scaffold edges."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)",
+          "excerpt": "Each employee on a scaffold shall be provided with protection from falling hand tools, debris, and other small objects through toeboards, screens, guardrail systems, debris nets, catch platforms, or canopy structures."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee installing a supported scaffold fell to the concrete pavement, a fall height of 48 feet, sustaining blunt force traumatic injury to the head and was killed."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015",
+          "excerpt": "Employee fell and died when makeshift platform broke; work platform was not fully planked or protected."
+        },
+        {
+          "reference": "Accident Summary Nr: 1580494.015",
+          "excerpt": "Employee fell when the top clamp bolt securing the bracket to the wall loosened; scaffold had guardrails but failure of components caused the fall."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

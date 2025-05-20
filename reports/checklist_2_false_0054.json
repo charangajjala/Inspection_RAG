@@ -1,0 +1,86 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold legs, posts, frames, and uprights are not properly placed on baseplates and mud sills.",
+    "Safe access is not provided; scaffold cross braces are being used as access or exit ladders."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Improper Support of Scaffold Legs, Posts, Frames, and Uprights",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Improper footing and foundation support can lead to scaffold instability and collapse, risking fatal falls and serious injuries, as evidenced by OSHA requirements for baseplates and mud sills to ensure scaffold stability and prior accidents involving scaffold tipping and falls.",
+      "finding": "The scaffold's legs, posts, frames, and uprights are not resting on baseplates and mud sills or other adequate firm foundations. OSHA standards require these components to bear on level, sound, rigid surfaces capable of supporting loaded scaffolds without settling or displacement. Failure to comply significantly increases the risk of scaffold collapse or sway, endangering employee safety.",
+      "action_items": [
+        "Ensure all scaffold legs, posts, frames, and uprights rest on baseplates and mud sills or another approved, firm foundation that is level and capable of supporting the scaffold load.",
+        "Remove any unstable objects currently supporting scaffold components to prevent settling or displacement.",
+        "Conduct inspections by a competent person before each work shift to verify footing compliance.",
+        "Train personnel on the importance of proper scaffold footing and foundations as part of scaffold erection procedures."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffold collapse due to unstable footing (see Document 2, 3).",
+        "Crushing injuries from scaffold tipping over (Document 2).",
+        "Blunt force traumatic injury or fatality due to scaffold collapse (Document 3)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Structural members -- poles, legs, posts, frames, and uprights -- must be plumbed and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 (Document 3)",
+          "excerpt": "Employee fell to concrete pavement after scaffold collapse; blunt force injury and fatality from scaffold instability."
+        },
+        {
+          "reference": "Accident Summary Nr: 1486759.015 (Document 2)",
+          "excerpt": "Scaffold tipped over guardrails on 8th floor due to imbalance, causing fatal crushing injuries."
+        }
+      ]
+    },
+    {
+      "issue_title": "Unsafe Scaffold Access Using Cross Braces",
+      "checklist_item": "Check for safe access. Do not use the cross braces as a ladder for access or exit.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Using cross braces as access violates OSHA safety standards prohibiting their use as ladders, increasing fall risk. Historical incidents include falls caused by unsafe access methods on scaffolds leading to serious injury and fatalities.",
+      "finding": "Scaffold users are accessing or exiting the scaffold by climbing on cross braces, which is prohibited. OSHA standards specifically forbid using cross braces as a means of access or egress due to the lack of proper handholds and foot support, increasing the risk of slips, falls, and serious injuries.",
+      "action_items": [
+        "Provide and maintain safe means of access such as ladders, stair towers, ramps, or integral prefabricated scaffold access.",
+        "Strictly prohibit and enforce not using cross braces for climbing on or off scaffolds.",
+        "Train all employees on approved scaffold access methods and the hazards of using cross braces as ladders.",
+        "Conduct regular inspections and monitor access points for compliance with access safety standards."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from elevation causing fractures, traumatic injuries, or fatalities (Document 3, Document 17).",
+        "Injuries sustained from slips while climbing unsafe scaffold components (Document 18)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(9)",
+          "excerpt": "When scaffold platforms are more than 2 feet above or below a point of access, proper ladders or stairway access must be provided; cross braces must not be used as ladders."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1472196.015 (Document 18)",
+          "excerpt": "Employee slipped and fell due to missing guardrail and unsafe positioning, indicative of unsafe scaffold access and use."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015 (Document 17)",
+          "excerpt": "Employee fell about ten feet when scaffold was improperly assembled for end-frame ladder rungs requiring unsafe climbing approaches."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

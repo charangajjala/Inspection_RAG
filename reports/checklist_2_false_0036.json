@@ -1,0 +1,89 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold sections are not all pinned or appropriately secured.",
+    "The front face of the scaffold platform is not within 14 inches of the work or within 3 feet for outrigger scaffolds."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Insecure Scaffold Sections due to Unpinned Components",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Unsecured scaffold sections present a direct hazard of collapse or displacement, which can lead to severe falls or crushing injuries, as documented in several scaffold-related fatal accidents where improper securing of components contributed to fall hazards and structural failure.",
+      "finding": "During the inspection, it was observed that not all scaffold sections were pinned or appropriately secured. This violation creates a substantial risk of scaffold instability or collapse, exposing workers to high fall hazards and the potential for serious injury or death. OSHA mandates that scaffolds and scaffold components be inspected by a competent person before each use and that all parts are secured to prevent movement and displacement (29 CFR 1926.451(d)(10), 1926.451(c)(3)). Historical accident reports demonstrate the grave consequences of scaffold failure due to unsecured components.",
+      "action_items": [
+        "Ensure all scaffold sections are pinned or otherwise securely fastened before the scaffold is used.",
+        "Conduct inspections by a competent person to verify the security of all scaffold parts prior to each work shift and after any event that might affect structural integrity.",
+        "Provide training to scaffold erectors on the importance of securely locking all scaffold sections as per OSHA training requirements (1926.454(b)).",
+        "Implement routine audits to verify compliance with scaffold securing procedures."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffold collapse or displacement (Accident Summary Nr: 131063.015, Accident Summary Nr: 155680.015)",
+        "Severe fractures and crushing injuries due to scaffold tipping or collapse (Accident Summary Nr: 0215000, 1486759.015)"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(3) - Structural members must be plumb and braced to prevent swaying and displacement.",
+          "excerpt": "The structural members -- poles, legs, posts, frames, and uprights -- must be plumbed and braced to prevent swaying and displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(d)(10) - Scaffold components shall be inspected for visible defects by a competent person before each work shift.",
+          "excerpt": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect the structural integrity and to authorize prompt corrective action."
+        },
+        {
+          "reference": "29 CFR 1926.454(b) - Training on erection and securing procedures for scaffold use.",
+          "excerpt": "A competent person must train all employees who erect, disassemble, move, operate, repair, maintain, or inspect scaffolds."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell to the ground due to scaffold issues and sustained a fatal blunt force traumatic injury."
+        },
+        {
+          "reference": "Accident Summary Nr: 155680.015",
+          "excerpt": "Two employees were electrocuted when working on a pump jack scaffold that contacted power lines after scaffold instability."
+        }
+      ]
+    },
+    {
+      "issue_title": "Excessive Distance Between Scaffold Platform Front Face and Work Surface",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "A front face distance exceeding OSHA's regulated limits increases potential fall hazards due to insufficient proximity for safe working conditions and necessitates additional fall protection, which may be absent. This condition matches accident patterns where falls occurred due to inadequate guardrail coverage or working distance.",
+      "finding": "The scaffold platform's front face was found to be positioned beyond the OSHA permissible distance of 14 inches from the work surface, or 3 feet for outrigger scaffolds. This can result in employees reaching excessively to perform tasks, increasing the likelihood of loss of balance or accidental falls. OSHA standards require that scaffold platforms be positioned within these distances or be supplemented with guardrail systems or personal fall arrest systems to reduce fall risk (29 CFR 1926.451(b)(3), 1926.451(g)(4)). Failure to comply with these requirements has been a factor in past injuries and fatalities.",
+      "action_items": [
+        "Adjust scaffold platform placement to ensure the front edge is within 14 inches of the work face, or within 3 feet for outrigger scaffolds.",
+        "Where the proximity cannot be achieved, install required guardrails or personal fall arrest systems to protect employees from fall hazards.",
+        "Train employees on safe scaffold platform positioning and use of fall protection systems.",
+        "Include platform positioning and compliance checks in routine inspections."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from elevation leading to fractures and fatalities (Multiple incidents including falls from 5 to 54 feet).",
+        "Injuries from slips or overreaching due to unsafe platform distances."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3) - Maximum front edge distance from the face of the work is 14 inches; 3 inches for outrigger scaffolds.",
+          "excerpt": "The front edge of all platforms shall not be more than 14 inches from the face of the work unless guardrail systems or personal fall arrest systems are used."
+        },
+        {
+          "reference": "29 CFR 1926.451(g)(4) - Guardrail systems must be installed along all open sides and ends.",
+          "excerpt": "To ensure adequate protection, install guardrails along all open sides and ends before releasing the scaffold for use by employees."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 018246.015",
+          "excerpt": "Employee slipped and fell due to unsafe scaffold platform configuration and missing guardrails."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015",
+          "excerpt": "Employee fatality caused by makeshift platform failure, linked to unsafe platform positioning and securing."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

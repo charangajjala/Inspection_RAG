@@ -1,0 +1,87 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold does not meet electrical safety clearance distances.",
+    "Tools and materials are not at least 10 feet away from energized power lines."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Electrical Safety Clearance Distances Not Met",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain required clearance from energized power lines exposes employees to immediate risk of electrocution, as evidenced by multiple fatal and serious injury accidents in the provided context involving scaffold contact with power lines.",
+      "finding": "The scaffold setup does not maintain the required OSHA specified clearance distances from energized power lines. This non-compliance significantly increases the risk of electrical contact during scaffold erection or use, potentially resulting in electrocution or severe electrical burns. Historical accident reports show multiple fatalities and injuries due to contact with power lines, highlighting the severity of this hazard.",
+      "action_items": [
+        "Immediately evaluate the site and re-position the scaffold to ensure it meets the minimum OSHA-required clearance distance from all energized power lines as per 29 CFR 1926.451(f)(6).",
+        "Coordinate with utility companies to de-energize or shield power lines if proximity work is necessary.",
+        "Train scaffold erectors and users to recognize the dangers of electrical hazards and the importance of maintaining clearances.",
+        "Ensure competent persons inspect and verify electrical clearance before and during scaffold use.",
+        "Install physical barriers or warning signs to alert employees of electrical hazards near the scaffold."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal electrocution from contact with high-voltage power lines (Documents 6, 7, 9).",
+        "Severe electrical burns requiring hospitalization (Documents 6, 8, 9, 10)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines; scaffolds and scaffold components shall not be erected or used closer than the specified distance unless power lines are de-energized or guarded by insulating barriers."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1497090.015 (10/13/2020)",
+          "excerpt": "Scaffold pole contacted live uninsulated primary power line causing electrocution and hospitalization."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505237.015 (12/07/2020)",
+          "excerpt": "Pump jack scaffold pole toppled onto energized power lines causing electrocution and shock injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 1584732.015 (03/10/2022)",
+          "excerpt": "Two employees moving pump jack scaffold electrocuted when contact was made with overhead powerlines."
+        }
+      ]
+    },
+    {
+      "issue_title": "Tools and Materials Not Maintained at Safe Distance from Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Tools or materials in close proximity to energized power lines can act as conductors, creating serious electrocution hazards to workers on or near the scaffold. Past incidents have demonstrated fatal outcomes from such conditions.",
+      "finding": "The inspection revealed that tools and materials are stored or handled within less than the recommended 10-foot distance from energized power lines. This unsafe practice elevates the risk of accidental contact or electrical arcing, leading to severe injury or death. Numerous accident reports confirm that proximity to power lines has caused multiple electrocutions and electrical burns in scaffold operations.",
+      "action_items": [
+        "Relocate all tools and materials to maintain at least a 10-foot clearance from any energized power lines.",
+        "Develop and enforce strict protocols for handling and storage of conductive tools and materials near power lines.",
+        "Conduct regular jobsite hazard assessments focused on electrical risks to ensure ongoing compliance.",
+        "Incorporate electrical hazard awareness in scaffold safety and electrical safety training programs.",
+        "Use non-conductive tools and materials when work near power lines cannot be avoided."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution from conductive tools contacting power lines (Documents 6, 7, 9).",
+        "Electrical burns requiring hospital treatment (Documents 6, 8)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Tools, materials, and scaffold components must be kept clear of energized power lines by prescribed safe distances or protective measures."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "Employees on scaffolds must be protected from falling objects and electrical hazards through guardrails, toeboards, or other means."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1505542.015 (12/07/2020)",
+          "excerpt": "While securing plywood to the scaffold near power lines, an electrical arc occurred causing injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505237.015 (12/07/2020)",
+          "excerpt": "Material handling near power lines led to fatal electrocution."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

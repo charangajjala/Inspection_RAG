@@ -1,0 +1,81 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold sections are not all pinned or appropriately secured.",
+    "Scaffold legs, posts, frames, and uprights are not all on baseplates and mudsills."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsecured Scaffold Sections",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Unsecured scaffold sections threaten the structural integrity and stability of the scaffold, increasing the risk of collapse or dislodgement, which can result in falls or crushing injuries. Historical accident reports show fatal falls and serious injuries resulting from scaffold component failures and improper assembly.",
+      "finding": "The inspection revealed that not all scaffold sections were pinned or appropriately secured. This is a significant hazard because unsecured sections can shift or collapse under load or employee movement. OSHA standards (29 CFR 1926.451(d)(8)) require scaffold components to be properly joined and secured to ensure scaffold stability. Failure to do so has been linked to fatal scaffold falls and injuries as documented in accident reports where improper securing or loosened clamps led to employees falling from heights.",
+      "action_items": [
+        "Immediately secure all scaffold sections by pinning or other appropriate fastening methods as required by OSHA standards.",
+        "Conduct thorough training for scaffold erectors to ensure correct assembly and securing of scaffold components.",
+        "Implement daily scaffold inspections by a competent person to verify all components remain properly secured during use.",
+        "Promptly address and repair any loose or damaged components before scaffold use."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls due to scaffold collapse or dislodgement.",
+        "Serious injuries such as fractures or crush injuries from scaffold failure."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(d)(8)",
+          "excerpt": "Scaffold components shall be joined and secured appropriately to prevent displacement or collapse."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 155680.015 (03/10/2022)",
+          "excerpt": "Fatal electrocution and injuries occurred related to scaffold movement and instability associated hazards."
+        },
+        {
+          "reference": "Accident Summary Nr: 131063.015 (11/13/2020)",
+          "excerpt": "Employee fell 48 feet after scaffold installation on ninth tier due to fall protection and structural failures."
+        },
+        {
+          "reference": "Accident Summary Nr: 1580494.015 (02/15/2022)",
+          "excerpt": "Loose clamp bolt securing scaffold bracket led to fall of 28 feet and fracture."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Legs, Posts, Frames, and Uprights Not On Baseplates and Mudsills",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Proper load distribution through baseplates and mudsills is critical to prevent scaffold settling, shifting, or collapse. Without adequate firm foundation, scaffolds are unstable and prone to tipping or failure, which could cause fatal falls or traumatic injuries. OSHA mandates supported scaffold poles, legs, posts, frames, and uprights bear on baseplates and mud sills or other firm foundation, as reiterated in multiple standards (29 CFR 1926.451(c)(2)). Failure to meet this requirement has historically resulted in scaffold collapses and fatalities.",
+      "finding": "The inspection found scaffold legs, posts, frames, and uprights that are not all properly placed on baseplates and mudsills. This condition compromises scaffold stability by allowing uneven settling or displacement under load. OSHA regulations clearly require baseplates and mudsills or equivalent solid foundations to ensure scaffold stability. Past OSHA accident investigations have documented fatal scaffold collapses and severe injuries directly linked to improper footing and foundation support.",
+      "action_items": [
+        "Place all scaffold poles, legs, posts, frames, and uprights on baseplates and firm, level mudsills or equivalent surfaces as required by OSHA.",
+        "Ensure footing surfaces are level, sound, rigid, and capable of supporting the loaded scaffold without displacement.",
+        "Do not use unstable or improvised objects (e.g., bricks, blocks) to support scaffolds.",
+        "Conduct competent person inspections prior to scaffold use and regularly thereafter to confirm footing compliance."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls due to scaffold collapse or tipping caused by footing failure.",
+        "Serious injuries from scaffold instability and resulting falls."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)(i-iv)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on baseplates and mud sills or other adequate firm foundation; footings must be level, sound, rigid, and capable of supporting loads without settling or displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 (11/13/2020)",
+          "excerpt": "Fatal fall from scaffold due to structural and assembly failures suggestive of stability issues."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015 (10/22/2021)",
+          "excerpt": "Fatal fall caused in part by makeshift and inadequate platform supports."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,73 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees are not wearing hard hats near or on the scaffold.",
+    "Not all scaffold sections are pinned or appropriately secured."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Use by Employees Near or On Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Failure to wear hard hats exposes employees to risk of head injuries from falling objects or accidental contact with scaffold components, a common cause of serious injury or fatality according to multiple accident reports.",
+      "finding": "During the inspection, it was observed that employees involved with or near scaffold operations were not wearing hard hats. OSHA standards require employees on scaffolds to be provided with and wear hard hats in addition to other protective measures against falling objects or accidental impacts. The absence of this essential PPE significantly increases risk of injury from falling debris or tools, as supported by accident reports where lack of head protection resulted in fatal injuries.",
+      "action_items": [
+        "Ensure all employees working on or near scaffolds wear approved hard hats at all times.",
+        "Provide training emphasizing the importance of head protection in preventing injuries from falling or flying objects.",
+        "Supervisors to enforce PPE compliance rigorously, with immediate corrective action for non-compliance.",
+        "Incorporate regular PPE inspections into daily scaffold safety checks."
+      ],
+      "potential_accident_outcomes": [
+        "Head trauma due to impact from falling tools or debris.",
+        "Fatal injuries as documented in previous scaffold-related falls and struck-by incidents."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "In addition to wearing hardhats each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems..."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr 1502297.015 (January 7, 2021)",
+          "excerpt": "During the investigation, it was determined that neither the project foreman nor the employees had been trained in the hazards and proper installation of scaffolds and Employee #1 was fatally injured after a fall while working from scaffold without proper protection."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Sections Not All Pinned or Appropriately Secured",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Unsecured scaffold sections pose a severe hazard of collapse or tipping, which can result in falls from elevation, multiple injuries, and fatalities as documented in scaffold tip-over accidents in the historical reports.",
+      "finding": "The inspection revealed multiple scaffold sections were not fully pinned or secured as required. Proper securing of scaffold sections is critical to maintain structural integrity and prevent movement or collapse. Failure to secure scaffold sections has been directly linked to catastrophic scaffold tip-over incidents causing fatal crushing injuries and falls from significant heights.",
+      "action_items": [
+        "Immediately pin and secure all scaffold sections as per manufacturer specifications and OSHA requirements before use.",
+        "Conduct a thorough inspection of all scaffold connections to verify secure fastening before each shift.",
+        "Train competent personnel on the importance and procedures for proper scaffold section securing.",
+        "Establish a maintenance and inspection log to document correct securing of scaffold sections daily."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold collapse or tipping leading to severe falls and crush injuries.",
+        "Fatal crushing injuries from scaffold tipping as documented in the accident on August 4, 2020."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "The structural members -- poles, legs, posts, frames, and uprights -- must be plumbed and braced to prevent swaying and displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(f)(3)",
+          "excerpt": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift, and after any occurrence which could affect the structural integrity..."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr 1486759.015 (August 4, 2020)",
+          "excerpt": "The weight of the employees and materials on one side of the scaffold platform caused the scaffold to tip over the guardrails, resulting in fatal crushing injuries to Employee #1."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

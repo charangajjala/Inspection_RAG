@@ -1,0 +1,47 @@
+{
+  "summary_of_major_safety_issues": [
+    "Front face of scaffold is not within 14 inches of the work (or within 3 feet for outrigger scaffolds)"
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Improper Front Face Distance from Work Surface",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for  outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Scaffolds with platforms extending beyond the acceptable distance from the work surface increase the risk of falls due to unstable footing and lack of proper fall protection, as supported by accident reports where scaffold falls and tipping occurred due to instability and improper platform configuration.",
+      "finding": "The scaffold's front face is not positioned within the acceptable proximity to the work surface, exceeding 14 inches for standard scaffolds or 3 inches for outrigger scaffolds. This condition creates a hazardous work environment by increasing the risk of falls from the scaffold or loss of balance. OSHA regulations specify strict limits on the distance to the work surface to ensure stability and the ability to provide adequate fall protection, including guardrails and personal fall arrest systems.",
+      "action_items": [
+        "Reposition or adjust scaffold platforms so that the front face is within 14 inches of the work or within 3 inches for outrigger scaffolds as required by OSHA standards.",
+        "Install guardrail systems or provide personal fall arrest systems as additional fall protection when platform width cannot be reduced to comply.",
+        "Conduct a competent person evaluation to ensure scaffold stability and compliance with spacing requirements before work resumes.",
+        "Train scaffold users on the importance of maintaining proper platform distances and using appropriate fall protection."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffold due to loss of balance or unstable footing, potentially resulting in fatalities or serious injuries as in documented scaffold falls (e.g., fall heights of 5 to 48 feet with severe outcomes).",
+        "Tipping or collapse of scaffold due to improper load distribution or platform positioning leading to crushing injuries.",
+        "Injuries such as fractures, blunt force trauma, or fatal falls when working on improperly positioned scaffold platforms."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3) and 1926.451(g)",
+          "excerpt": "The front edge of all scaffold platforms shall not be more than 14 inches from the face of the work unless guardrail systems or personal fall arrest systems are used. Outrigger scaffold platforms max distance is 3 inches from the front edge."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Guide (Documents 36, 37, 38)",
+          "excerpt": "To ensure safety, scaffold platforms must maintain approved distances from the work surface to prevent falls and allow installation of fall protection systems."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 131063.015 (Document 3)",
+          "excerpt": "Employee fell 48 feet from scaffold indicating loss of balance or failing platform conditions possibly related to improper platform configuration."
+        },
+        {
+          "reference": "Accident Report Nr: 155680.015 (Document 9)",
+          "excerpt": "Fatal electrocution from contact with power lines while moving pump jack scaffold highlighting hazards related to scaffold positioning and clearance."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

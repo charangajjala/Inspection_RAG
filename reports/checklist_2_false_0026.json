@@ -1,0 +1,88 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "Unsafe access: employees are using crossbraces as a means of access or exit."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Missing Guardrails and Toeboards on Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Absence of guardrails and toeboards on open scaffold sides presents a direct fall hazard and risk of falling objects, which has historically resulted in fatal falls and serious injuries as reported. OSHA requires guardrails to be installed along all open sides and ends before scaffold use by employees other than erection/dismantling crews (1926.451(g)(4)).",
+      "finding": "The scaffold currently lacks guardrails and toeboards on all open sides. This exposes employees to a high risk of falling from elevation or being struck by falling objects. Historical accident reports underscore that lack of guardrails frequently results in fatal fall incidents and injuries. Guardrails and toeboards are critical for fall prevention and for protecting employees below from dropped tools or materials.",
+      "action_items": [
+        "Immediately install guardrails along all open sides and ends of the scaffold in compliance with OSHA 1926.451(g)(4).",
+        "Install toeboards or screens to prevent materials or tools from falling off the platform.",
+        "Conduct training for employees on the importance of fall protection and proper scaffold use.",
+        "Assign a competent person to verify that guardrails and toeboards are installed correctly and maintained throughout scaffold use.",
+        "Regularly inspect guardrails and toeboards for damage or displacement and repair or replace as necessary."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from height resulting in fatal or severe injury (Documents 1, 2, 3, 4).",
+        "Employees struck by falling tools or debris causing injuries.",
+        "Scaffold tipping or collapse scenarios exacerbated by lack of proper guardrails."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before scaffold use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "Each employee on a scaffold shall be provided with protection from falling objects through installation of toeboards, screens, or guardrail systems."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Manual",
+          "excerpt": "Guardrails are a primary fall protection system required on scaffolds to prevent falls and falling object hazards."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 1",
+          "excerpt": "Employee fell 5 feet from scaffold lacking proper fall protection; resulted in fatal injuries."
+        },
+        {
+          "reference": "Accident Report 2",
+          "excerpt": "Scaffold tipped over guardrails leading to fatal crushing injury and serious fractures."
+        }
+      ]
+    },
+    {
+      "issue_title": "Use of Crossbraces as Scaffold Access",
+      "checklist_item": "Check for safe access. Do not use the cross braces as a ladder for access or exit.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Using crossbraces as a means of scaffold access is explicitly prohibited by OSHA (1926.451(e)(1)) due to the risk of slips, falls, and scaffold instability. Past accidents have illustrated that improper access often leads to falls from awkward or unsafe climbing points.",
+      "finding": "Employees are reportedly using crossbraces to access or exit the scaffold. Crossbraces are not designed or intended for climbing and do not provide stable handholds or footing. This unsafe practice significantly increases the risk of falls from elevation and potential injuries.",
+      "action_items": [
+        "Immediately restrict scaffold access to approved means such as ladders, stair towers, ramps, or integral scaffold access frames per OSHA 1926.451(e).",
+        "Remove or secure any crossbraces that might encourage climbing.",
+        "Provide training and clear signage prohibiting use of crossbraces as access.",
+        "Ensure a competent person evaluates scaffold access and provides safe and secure access points.",
+        "Regularly inspect scaffold access points to confirm compliance with OSHA requirements."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffold caused by slips or unstable footing on crossbraces.",
+        "Injuries related to improper climbing techniques or scaffold instability."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access or egress."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Manual",
+          "excerpt": "Safe access must be provided by ladders, stair towers, ramps, or integral scaffold frames; crossbraces are not acceptable."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 17",
+          "excerpt": "Employee fell approximately ten feet stepping from scaffold platform onto improperly assembled end-frame ladder rungs resulting in fracture and head injury."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

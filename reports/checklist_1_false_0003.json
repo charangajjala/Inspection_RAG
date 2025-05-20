@@ -1,0 +1,47 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold sections are not all pinned or appropriately secured."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsecured Scaffold Sections",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Unsecured scaffold sections pose a critical risk of scaffold collapse or displacement, leading to worker falls from height or scaffold failure, as evidenced by multiple fatal and severe injury accidents in past reports caused by structural failures or component detachment.",
+      "finding": "The scaffold inspection revealed that not all scaffold sections were pinned or properly secured. This non-compliance creates a significant hazard of scaffold instability. According to OSHA standards (1926.451(a)(6)) and accident reports, failure to secure scaffold components can result in catastrophic falls and injuries from collapse or displacement of scaffold parts. Historical incidents have shown that unsecured parts contributed to falls from heights up to 48 feet with fatal outcomes.",
+      "action_items": [
+        "Ensure that all scaffold sections are securely pinned or fastened according to manufacturer specifications and OSHA requirements.",
+        "Conduct inspections by a competent person before each work shift and after any event that could affect scaffold integrity to verify all sections remain secured.",
+        "Provide immediate corrective action where any unsecured or loose scaffold component is identified.",
+        "Train scaffold erectors and users to recognize the importance of securing all scaffold sections and components."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffold due to collapse or displacement of unsecured sections as seen in multiple incidents with fatal and serious injuries.",
+        "Crushing injuries from falling scaffold materials during structural failure.",
+        "Death or severe trauma from falling from heights caused by scaffold failure."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(a)(6)",
+          "excerpt": "The standard requires components to be securely fastened to prevent displacement and collapse."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold uprights, legs, posts, and frames must be plumb and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "Employee fell from scaffold due to improper installation and failure of scaffold structure leading to a fatal fall of 48 feet."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015 - Employee falls and dies when makeshift platform breaks",
+          "excerpt": "A platform that was not fully planked or properly supported failed causing a 20-foot fatal fall."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

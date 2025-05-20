@@ -1,0 +1,75 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees working near or on the scaffold are not wearing hard hats.",
+    "Tools and materials are not kept at least 10 feet away from energized power lines."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Usage by Scaffold Users",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Historical accident reports document severe injuries and fatalities caused by falling objects striking unprotected workers on scaffolds. OSHA standards mandate wearing hard hats to mitigate these hazards.",
+      "finding": "During inspection, it was observed that employees working on or near the scaffold were not wearing hard hats. This exposes them to serious hazards from falling tools, debris, or materials, which can lead to severe injury or fatality.",
+      "action_items": [
+        "Implement and enforce a mandatory hard hat policy for all employees working on or near scaffolds.",
+        "Provide adequate numbers of OSHA-compliant hard hats to all scaffold users and ensure proper fit and condition.",
+        "Conduct regular safety briefings and training on the importance of personal protective equipment (PPE), including hard hats.",
+        "Assign a competent person to monitor PPE compliance on-site and take corrective action when violations occur."
+      ],
+      "potential_accident_outcomes": [
+        "Head injuries, including blunt force trauma and fatal injuries caused by falling objects (see Accident Reports Document 1, 2, 3)."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h) - Falling object protection",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures that contain or deflect the falling objects."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Document 1",
+          "excerpt": "Employee fell and suffered fatal head injuries partly attributable to lack of training and protective measures like hard hats."
+        },
+        {
+          "reference": "Accident Report Document 2",
+          "excerpt": "Fatal injuries caused by scaffold tipping and falling debris striking unprotected workers."
+        }
+      ]
+    },
+    {
+      "issue_title": "Tools and Materials Positioned Within Dangerous Proximity to Energized Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Accidents documented in multiple reports show electrocution and severe electrical burns when scaffold components or materials contacted energized power lines. OSHA mandates clearance distances to prevent such hazards.",
+      "finding": "Tools and materials were found positioned less than 10 feet from energized power lines near the scaffold. This creates a significant electrocution hazard to employees working on or near the scaffold.",
+      "action_items": [
+        "Relocate all tools and materials to maintain at least a 10-foot clearance from energized power lines as per OSHA requirements.",
+        "Coordinate with relevant utility companies to de-energize, relocate, or insulate power lines during scaffold erection or use near electrical hazards.",
+        "Train employees to recognize electrical hazards associated with scaffolds and the importance of maintaining proper clearance.",
+        "Assign a competent person to monitor work near power lines and ensure compliance with clearance requirements."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution, severe electrical burns, hospitalization, and fatalities as reported in Accident Reports Documents 5, 6, 7, 8, 9, and 10."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6) - Clearance distances between scaffolds and power lines",
+          "excerpt": "Scaffolds and scaffold components shall not be closer to exposed and energized power lines than specified clearance distances to prevent electrical hazards."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Document 5",
+          "excerpt": "Employee suffered electrical burns from scaffold proximity to high-voltage conductors approximately 10 inches away."
+        },
+        {
+          "reference": "Accident Report Document 9",
+          "excerpt": "Two employees electrocuted and one hospitalized with electrical burns when a pump jack scaffold contacted overhead power lines."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

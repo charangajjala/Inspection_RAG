@@ -1,0 +1,83 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "Tools and materials are not kept at least 10 feet away from energized power lines."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Missing Guardrails and Toeboards on Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Absence of guardrails and toeboards on open sides exposes employees to fall hazards, which have been associated with fatal and serious injury incidents in the historical context. OSHA mandates guardrail installation on all open scaffold edges to prevent falls.",
+      "finding": "The scaffold lacks guardrails and toeboards on all open sides, creating significant fall hazards for employees working or accessing the scaffold. Historical accident reports demonstrate fatal and severe injuries resulting from falls where guardrails were missing or removed. Guardrails must be installed before the scaffold is released for general use to comply with OSHA regulations and ensure employee safety.",
+      "action_items": [
+        "Install guardrail systems along all open sides and ends of scaffold platforms in accordance with OSHA standard 1926.451(g)(4).",
+        "Install toeboards to prevent tools, materials, and debris from falling from the scaffold.",
+        "Ensure that guardrails are constructed of appropriate materials and installed to withstand required force capacities (toprail at least 200 lbs downward and midrails at least 150 lbs).",
+        "Conduct scaffold inspections before use and after any alterations to verify presence and integrity of guardrails and toeboards.",
+        "Train employees on the importance of guardrails and toeboards in fall prevention."
+      ],
+      "potential_accident_outcomes": [
+        "Fall from scaffold leading to traumatic injuries or fatality as documented in multiple historical reports including fatal falls from unsupported scaffold edges.",
+        "Injury from falling tools or debris due to absence of toeboards."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "Employee fell 48 feet due to fall from scaffold platform, resulting in fatal head injury due to lack of fall protection measures."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015 - Employee falls and dies when makeshift platform breaks",
+          "excerpt": "Fall from scaffold platform lacking proper guardrails and decking caused fatal injuries."
+        }
+      ]
+    },
+    {
+      "issue_title": "Improper Proximity of Tools and Materials to Energized Power Lines",
+      "checklist_item": "Make sure that tools and materials are at least 10 feet away from energized power lines.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Proximity of tools and materials to energized power lines poses a severe electrocution hazard, as confirmed by multiple documented fatal and serious electrical incidents where scaffold components or materials contacted power lines.",
+      "finding": "Tools and materials are currently placed within 10 feet of energized power lines, violating electrical safety clearance requirements. This creates a high risk of electrocution and electrical burns to employees working on or near the scaffold. Past accidents have resulted in fatalities and serious injuries due to scaffold components or materials contacting live overhead power lines.",
+      "action_items": [
+        "Immediately relocate tools, materials, and scaffold components to maintain at least a 10-foot clearance from energized power lines or as specified by OSHA standard 1926.451(f)(6).",
+        "Coordinate with utility companies to de-energize or insulate overhead power lines if work must be conducted closer than the minimum clearance distance.",
+        "Train employees on electrical hazard awareness related to scaffolding near power lines and proper clearance distances.",
+        "Use non-conductive materials and implement protective barriers to minimize electrical risks.",
+        "Conduct regular inspections to ensure clearance distances are maintained throughout scaffold use."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution leading to fatalities or severe burns as reported in multiple historical incidents involving scaffold contact with energized power lines.",
+        "Electrical shock injuries requiring hospitalization."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Scaffolds and scaffold components shall maintain specified clearance distances from energized power lines; work closer than these distances only after notifying utility company and implementing safety measures."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 155680.015 - Two employees are electrocuted, one incurs electrical burns",
+          "excerpt": "Employees died due to electrocution when a scaffold contacted overhead power lines during movement."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505542.015 - Employee electrocuted while erecting scaffold near power lines",
+          "excerpt": "Employee sustained electrical burns after scaffold proximity to high-voltage conductors approximately 10 inches away."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,89 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees involved with or near the scaffold are not wearing hard hats.",
+    "Footings are not level, sound, rigid, and capable of supporting the loaded scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Usage by Employees Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Failure to wear hard hats exposes employees to head injuries from falling objects, a common hazard observed in scaffold-related incidents causing severe injury or fatality.",
+      "finding": "During the inspection, it was observed that not all employees working on or near the scaffold were wearing hard hats. OSHA requires employees on scaffolds to wear protective helmets to mitigate head injuries from falling hand tools, debris, or other objects. Past accident cases have demonstrated serious head injuries and fatalities resulting from lack of proper head protection, underscoring the critical nature of this requirement.",
+      "action_items": [
+        "Enforce mandatory use of hard hats for all employees working on or near scaffolds.",
+        "Conduct immediate toolbox talks emphasizing the importance of head protection.",
+        "Provide adequate quantities of compliant hard hats to ensure availability.",
+        "Implement disciplinary measures for non-compliance to personal protective equipment rules."
+      ],
+      "potential_accident_outcomes": [
+        "Head injuries from impact with falling scaffold components or tools.",
+        "Blunt force trauma leading to serious injury or fatality."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(h)",
+          "excerpt": "Each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through the installation of toeboards, screens, or guardrail systems, or through the erection of debris nets, catch platforms, or canopy structures that contain or deflect the falling objects."
+        },
+        {
+          "reference": "29 CFR 1926.454(a)",
+          "excerpt": "All employees must be trained by a qualified person to recognize the hazards associated with the type of scaffold being used and how to control or minimize those hazards. The training must include fall hazards, falling object hazards, electrical hazards, proper use of the scaffold, and handling of materials."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 1 (01/07/2021)",
+          "excerpt": "Employee #1 fell from scaffold and died later, investigation determined employees were untrained in hazards and proper scaffold installation, highlighting the risk of inadequate safety practices including lack of PPE."
+        },
+        {
+          "reference": "Accident Report 4 (11/24/2020)",
+          "excerpt": "Employee fell from scaffold after guardrails were removed; although fall protection was worn, the incident underscores risk of insufficient protective practices."
+        }
+      ]
+    },
+    {
+      "issue_title": "Improper Footing: Footings Not Level, Sound, Rigid, or Capable of Supporting Scaffold Load",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Faulty footing can cause scaffold instability, leading to collapse or tipping which can result in severe injury or death. Historical accident reports reveal multiple fatalities and serious injuries caused by scaffold tipping and collapse due to inadequate foundation support.",
+      "finding": "The footing of the scaffold was found to be non-compliant; it was not level, sound, rigid, or able to support the loaded scaffold adequately. OSHA mandates that scaffold footings must be firm, capable of carrying the scaffold load without settling or displacement, and constructed on solid foundations such as base plates and mud sills. This non-compliance poses an imminent danger of scaffold failure and potential catastrophic accidents.",
+      "action_items": [
+        "Immediately correct footing deficiencies by leveling and reinforcing the base.",
+        "Use base plates, mud sills, or equivalent supports to establish a stable foundation.",
+        "Conduct regular competent person inspections of scaffold footing conditions before each use and after environmental events.",
+        "Train personnel on footing requirements and the importance of solid foundations to prevent scaffold collapse."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping or collapse causing falls from elevation.",
+        "Crush injuries or fatalities from scaffold failure."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation; footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "Supported scaffold structural members must be plumb and braced to prevent swaying and displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(1)",
+          "excerpt": "Supported scaffolds with a height to base width ratio of more than 4:1 shall be restrained from tipping by guying, tying, bracing, or the equivalent."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 2 (08/04/2020)",
+          "excerpt": "Scaffold tipped over the guardrails due to uneven load causing collapse from 8th floor to the 7th floor; resulted in fatal crushing injury."
+        },
+        {
+          "reference": "Accident Report 3 (11/13/2020)",
+          "excerpt": "Fall from scaffold height of 48 feet while installing supported scaffold, indicating hazard from scaffold instability."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,82 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold does not meet electrical safety clearance distances.",
+    "Unsafe access to scaffold involving climbing on cross braces."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Electrical Clearance Non-Compliance",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Scaffolds in close proximity to energized power lines pose immediate electrocution hazards that can result in fatal injury or severe burns, as indicated by multiple accident reports documenting electrocutions and electrical burns from scaffold components contacting or near power lines.",
+      "finding": "The scaffold inspected does not meet the required electrical safety clearance distances from energized power lines. OSHA standard 1926.451(f)(6) mandates minimum clearance distances to prevent accidental contact with power lines. Historical accident reports document fatalities and severe injuries due to scaffold contact with live electrical conductors, emphasizing the critical nature of compliance with clearance standards.",
+      "action_items": [
+        "Immediately re-assess and maintain all scaffold components at or beyond the OSHA-required clearance distances from energized power lines.",
+        "Coordinate with utility companies to de-energize, relocate, or shield power lines as necessary before work proceeds in proximity.",
+        "Train all employees on electrical hazards associated with scaffolding and emphasize the importance of maintaining clearance distances.",
+        "Perform regular inspections by a competent person to verify continued compliance with electrical safety standards."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution resulting in fatality or serious injury.",
+        "Electrical burns requiring hospitalization.",
+        "Secondary falls caused by electrical shock or arc flash incidents."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The clearance between scaffolds and power lines shall be as follows: Scaffolds shall not be erected, used, dismantled, altered, or moved such that they or any conductive material handled on them might come closer to exposed and energized power lines than specified distances. Exception: only after the utility company has deenergized, relocated lines, or installed protective coverings."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 1497090.015 - Electrocution from scaffold contact with energized power line",
+          "excerpt": "Employees erecting a pump jack scaffold made contact with 7,200-volt primary power lines causing electrocution and serious injuries."
+        },
+        {
+          "reference": "Accident Report Nr: 1584732.015 - Two employees electrocuted moving pump jack scaffold",
+          "excerpt": "Two employees died due to electrocution when moving a pump jack scaffold that contacted overhead powerlines."
+        },
+        {
+          "reference": "Accident Report Nr: 1455864.015 - Electrical burns from pump jack scaffold pole contact",
+          "excerpt": "Three employees hospitalized from electrical burns after scaffold pole contacted powerlines."
+        }
+      ]
+    },
+    {
+      "issue_title": "Unsafe Scaffold Access - Use of Cross Braces",
+      "checklist_item": "Check for safe access. Do not use the cross braces as a ladder for access or exit.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Using cross braces as access routes is specifically prohibited by OSHA due to the high risk of falls caused by unstable footing and lack of secure handholds. Several accident reports associate falls from scaffold access failures with serious fractures and fatalities.",
+      "finding": "The scaffold access was found to be non-compliant because employees are climbing on cross braces for access. OSHA standard 1926.451(e)(1) clearly prohibits the use of cross braces as a means of access, requiring instead the use of ladders, stair towers, ramps, or integral scaffold frames. Unsafe access methods increase the likelihood of falls and resultant serious injuries.",
+      "action_items": [
+        "Remove and prohibit use of cross braces for scaffold access immediately.",
+        "Install compliant access equipment such as ladders, stair towers, or ramps in accordance with OSHA 1926.451(e).",
+        "Ensure a competent person evaluates and approves scaffold access methods before use.",
+        "Provide employee training on approved scaffold access requirements and hazards of improper access."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from elevation resulting in fractures, head trauma, or fatalities.",
+        "Serious injuries from slips or loss of balance due to improper climbing surfaces."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access. Access must be provided by ladders, stair towers, ramps, integral scaffold frames, or other approved access systems."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report Nr: 1506479.015 - Scaffold fall due to improper end-frame ladder access",
+          "excerpt": "Employee fell approximately 10 feet when fabricated frame scaffold end-frame ladder rungs were improperly assembled causing unsafe access."
+        },
+        {
+          "reference": "Accident Report Nr: 131063.015 - Scaffold fall fatality during installation",
+          "excerpt": "Employee fell to ground from unsupported scaffold platform while climbing, highlighting risks associated with unsafe scaffold access."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

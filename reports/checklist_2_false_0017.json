@@ -1,0 +1,83 @@
+{
+  "summary_of_major_safety_issues": [
+    "Employees involved with or near the scaffold are not wearing hard hats.",
+    "Scaffold legs, posts, frames, and uprights are not on baseplates and mudsills."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Lack of Hard Hat Use by Employees Involved with or Near Scaffold",
+      "checklist_item": "Are all employees involved with (or near) the scaffold wearing hard hats?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Failure to wear hard hats greatly increases the risk of head injuries from falling objects or debris, which is a common hazard in scaffold-related accidents as supported by multiple accident reports involving head injuries.",
+      "finding": "The inspection revealed that not all employees involved with or near the scaffold were wearing hard hats. OSHA standards require additional protection from falling objects and mandate wearing hard hats to protect against head injuries. Numerous past scaffold-related accidents have resulted in serious head injuries or fatalities when employees were unprotected.",
+      "action_items": [
+        "Enforce mandatory use of OSHA-compliant hard hats for all employees working on or near scaffolds at all times.",
+        "Provide training on the importance of personal protective equipment, specifically hard hats, and ensure supervision enforces compliance.",
+        "Regularly inspect the site and personnel to verify compliance with hard hat requirements."
+      ],
+      "potential_accident_outcomes": [
+        "Head trauma and fatal injuries as documented in accident reports 1, 3, and 17.",
+        "Serious injuries from falling debris or tools."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "1926.451(h)(1)",
+          "excerpt": "In addition to wearing hardhats each employee on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects."
+        },
+        {
+          "reference": "1926.454(a)",
+          "excerpt": "All employees must be trained by a qualified person to recognize the hazards associated with the type of scaffold being used and how to control or minimize those hazards, including fall hazards and falling object hazards."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 1 (1502297.015)",
+          "excerpt": "Employee #1 fell and sustained fatal head injuries; neither the employee nor foreman were trained in scaffold hazards."
+        },
+        {
+          "reference": "Accident Report 3 (131063.015)",
+          "excerpt": "Fatal fall with blunt force traumatic injury to head while installing scaffold."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Legs, Posts, Frames, and Uprights Not Placed on Baseplates and Mudsills",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Scaffold instability due to improper footing placement directly threatens worker safety by increasing the likelihood of scaffold collapse or tipping, which can result in falls from height and severe or fatal injuries, as evidenced in multiple fatal scaffold incidents.",
+      "finding": "The inspection identified that scaffold supports (legs, posts, frames, and uprights) are not resting on the required baseplates and mudsills or equivalent firm foundation. OSHA requires scaffold poles, legs, posts, frames, and uprights to bear on baseplates and mudsills or other adequate firm foundations to prevent settling or displacement. This deficiency compromises scaffold stability and safety, greatly increasing the risk of collapse.",
+      "action_items": [
+        "Immediately place all scaffold legs, posts, frames, and uprights on OSHA-compliant baseplates and mudsills or equivalent stable footing.",
+        "Ensure footings are level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement.",
+        "Implement and enforce routine inspections by a competent person to verify footings remain compliant during use."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping and collapse leading to fatal falls from height as seen in accident reports 2 and 3.",
+        "Severe crush injuries from scaffold failure."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation."
+        },
+        {
+          "reference": "1926.451(c)(3)",
+          "excerpt": "The structural members such as poles, legs, posts, frames, and uprights must be plumb and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 2 (1486759.015)",
+          "excerpt": "Scaffold tipped over causing fatal fall from 18 feet when overloaded."
+        },
+        {
+          "reference": "Accident Report 3 (131063.015)",
+          "excerpt": "Employee fell 48 feet due to scaffold instability while installing."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,86 @@
+{
+  "summary_of_major_safety_issues": [
+    "Guardrails and toeboards are not in place on all open sides.",
+    "Safe access is not provided; employees are climbing on crossbraces."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Missing Guardrails and Toeboards on Open Sides",
+      "checklist_item": "Are guardrails and toeboards in place on all open sides?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Lack of guardrails and toeboards exposes workers to fall hazards and falling objects, which are leading causes of scaffold-related fatal injuries and serious injuries as documented in historical accident reports and emphasized by OSHA standards.",
+      "finding": "The inspection revealed that guardrails and toeboards are not installed on all open sides of the scaffold. This non-compliance significantly increases the risk of falls from height and injuries from falling tools or debris, which are well-known hazards leading to fatalities and severe injuries in the construction industry.",
+      "action_items": [
+        "Install guardrail systems on all open sides and ends of the scaffold platforms before release for use by employees.",
+        "Install toeboards or equivalent falling object protection such as debris nets or screens to prevent tools and materials from falling.",
+        "Ensure guardrails comply with height, strength, and construction requirements as per OSHA standards.",
+        "Conduct training to make sure workers understand the importance of maintaining guardrails and toeboards."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal falls from scaffold platforms (Accident Report Nr: 131063.015, 1502297.015)",
+        "Serious injuries from falls (Accident Report Nr: 140511.015, 1560754.015)",
+        "Injuries from falling objects"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(g)(4)",
+          "excerpt": "Guardrail systems shall be installed along all open sides and ends of platforms before the scaffold is released for use by employees other than erection/dismantling crews."
+        },
+        {
+          "reference": "29 CFR 1926.451(h)(1)",
+          "excerpt": "Employees on a scaffold shall be provided with additional protection from falling hand tools, debris, and other small objects through installation of toeboards, screens, or guardrail systems."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet from scaffold platform resulting in fatal head injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015",
+          "excerpt": "Employee falls and dies when makeshift platform breaks; platform was not fully planked or protected."
+        }
+      ]
+    },
+    {
+      "issue_title": "Unsafe Scaffold Access by Climbing on Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Use of crossbraces as access points is explicitly prohibited and greatly increases the likelihood of falls, as the bracing is not designed to serve as safe access. OSHA and accident reports identify improper access as a common cause of falls resulting in injuries and fatalities.",
+      "finding": "Employees are accessing the scaffold by climbing on crossbraces, which is not a compliant or safe method of access. Crossbraces are not designed to provide footing or handholds, creating a high risk of losing balance and falling from heights.",
+      "action_items": [
+        "Provide safe and compliant scaffold access such as ladders, stair towers, ramps, or integral scaffold access frames.",
+        "Remove any practice of using crossbraces for access immediately and communicate the prohibition to all workers.",
+        "Assign a competent person to ensure scaffolds are equipped with proper access facilities before use.",
+        "Train employees on appropriate scaffold access and egress methods."
+      ],
+      "potential_accident_outcomes": [
+        "Falls resulting in fatal and serious injuries (Accident Summary Nr: 131063.015, 1506479.015)",
+        "Fractures and head injuries from falls while using improper access points"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)(2), (e)(4), (e)(5), (e)(6)",
+          "excerpt": "Permitted scaffold access includes ladders, stair towers, ramps and walkways, and integral prefabricated frames."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet after climbing scaffold during installation."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015",
+          "excerpt": "Employee fell approximately 10 feet stepping from scaffold platform due to improper ladder rungs."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

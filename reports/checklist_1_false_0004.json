@@ -1,0 +1,53 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold does not meet electrical safety clearance distances."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Non-compliance with Electrical Safety Clearance Distances",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain required electrical clearance distances poses an immediate risk of electrocution. Historical accident reports show multiple fatalities and severe injuries resulting from scaffold components or employees contacting or coming dangerously close to energized power lines.",
+      "finding": "The scaffold installation on site does not comply with OSHA requirements for maintaining safe clearance distances from overhead power lines. This violation exposes employees to the risk of electrical shock or electrocution. Several past accident reports demonstrate the severe consequences of ignoring electrical clearance protocols including fatal electrocutions when scaffold parts or workers contacted energized lines. The risk is heightened if high-voltage conductors are near the scaffold or if power lines are not properly de-energized or guarded.",
+      "action_items": [
+        "Immediately evaluate and mark all overhead power lines around the scaffold to ensure compliance with OSHA clearance distances as specified in 29 CFR 1926.451(f)(6).",
+        "Coordinate with the utility company or electrical system operator to de-energize, relocate, or protect power lines if work must be performed closer than OSHA-specified distances.",
+        "Provide comprehensive electrical hazard training to all employees working on or near the scaffold, emphasizing clearance requirements and procedures for working safely near power lines.",
+        "Post clear signage and barriers to prevent accidental contact with overhead power lines during scaffold erection, use, and dismantling.",
+        "Conduct frequent site inspections by a competent person to verify ongoing compliance with electrical safety requirements."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution resulting in fatality or serious injury (including burns and shocks)",
+        "Electrical burns to arms and hands",
+        "Hospitalization due to electrical shock injuries",
+        "Fatal crushing injuries following scaffold collapse triggered by electrical contact"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "The standard requires specific clearance distances between scaffolds and power lines, and scaffolds and scaffold components must be inspected for visible defects by a competent person before each work shift. When close proximity to energized power lines is necessary, the utility company must be notified to deenergize, relocate, or install protective coverings."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 155680.015 - Two employees are electrocuted, one incurs electrical burns",
+          "excerpt": "Two employees moving a pump jack scaffold contacted overhead powerlines and died due to electrocution; another was hospitalized with electrical burns."
+        },
+        {
+          "reference": "Accident Summary Nr: 1505542.015 - Employee suffers electrical burns",
+          "excerpt": "Employee securing plywood near high-voltage conductors 10 inches from scaffold suffered burns from electrical arc."
+        },
+        {
+          "reference": "Accident Summary Nr: 1506479.015 - Employee electrocuted by contact with power lines",
+          "excerpt": "Employees repositioning a pump jack scaffold pole toppled it onto energized overhead power lines, resulting in electrocution and hospitalization."
+        },
+        {
+          "reference": "Accident Summary Nr: 1455864.015 - Employees shocked using pump jack scaffold",
+          "excerpt": "Three employees shocked while standing on aluminum pump jack scaffold pole that contacted overhead powerlines, requiring hospitalization."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}

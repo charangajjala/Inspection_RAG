@@ -1,0 +1,86 @@
+{
+  "summary_of_major_safety_issues": [
+    "Sections are not all pinned or appropriately secured.",
+    "Scaffold does not meet electrical safety clearance distances."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Improperly Secured Scaffold Sections",
+      "checklist_item": "Are all sections pinned or appropriately secured?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Unsecured scaffold sections can shift or collapse, posing a significant fall hazard and structural failure risk, as demonstrated in multiple accidents involving scaffold failures resulting in falls and serious injuries or fatalities.",
+      "finding": "Several sections of the scaffold are not properly pinned or secured. This condition compromises scaffold stability and integrity, increasing the risk of displacement or collapse, which can result in falls from height or scaffold overturning during use or movement.",
+      "action_items": [
+        "Immediately secure all scaffold sections by pinning or using appropriate locking mechanisms as per manufacturer instructions.",
+        "Conduct a thorough inspection of all scaffold connections by a competent person to ensure tight and stable assembly before use.",
+        "Implement routine checks during work shifts and after any scaffold movement or incident to verify continued secure connections.",
+        "Provide refresher training on proper assembly and securing procedures for employees erecting or modifying scaffolds."
+      ],
+      "potential_accident_outcomes": [
+        "Fall from scaffold due to section collapse or displacement.",
+        "Severe injuries or fatalities from scaffold structural failures as documented in accidents involving scaffold tipping or component failures."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(2) and 1926.451(d)(10)",
+          "excerpt": "Scaffolds and scaffold components shall be inspected for visible defects by a competent person before each work shift and after any occurrence which could affect the structural integrity."
+        },
+        {
+          "reference": "29 CFR 1926.451(a)(6)",
+          "excerpt": "Components used in scaffold construction must be designed and installed to provide structural integrity and support loads safely."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015",
+          "excerpt": "Employee fell 48 feet during scaffold installation due to scaffold structural failure leading to fatal blunt force traumatic injuries."
+        },
+        {
+          "reference": "Accident Summary Nr: 0215000",
+          "excerpt": "Scaffold tipping and guardrail failure on upper floors caused a fatal crushing injury and serious employee injuries."
+        }
+      ]
+    },
+    {
+      "issue_title": "Non-Compliance with Electrical Safety Clearance Distances",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Failure to maintain required clearance distances from energized power lines has resulted in multiple fatal electrocutions and severe electrical injuries in past incidents, emphasizing the critical hazard posed by proximity to live electrical conductors.",
+      "finding": "The scaffold does not maintain the minimum required clearance distances from energized power lines as mandated by OSHA. This exposes employees to the risk of electric shock, arc flash, electrocution, and serious burn injuries during scaffold erection and use.",
+      "action_items": [
+        "Immediately measure and verify the scaffold's distance from all energized power lines and ensure compliance with OSHA clearance requirements.",
+        "Coordinate work activities with the utility company to deenergize or insulate power lines if necessary before continuing work.",
+        "Establish barriers or exclusion zones around power lines and instruct employees to maintain safe distances at all times.",
+        "Provide specialized training on electrical hazards and safe work practices near power lines to all scaffold workers and supervisors.",
+        "Use non-conductive materials or insulating barriers where scaffolds must be constructed in proximity to energized lines."
+      ],
+      "potential_accident_outcomes": [
+        "Fatal electrocution and severe electrical burns as described in multiple accident reports involving scaffold contact with live electrical conductors.",
+        "Electrical arc flash injuries leading to hospitalization and long-term disability."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Scaffolds and scaffold components shall not be erected, used, dismantled, altered, or moved such that they or any conductive material may come closer to exposed and energized power lines than specified clearance distances."
+        },
+        {
+          "reference": "29 CFR 1926.454(a)",
+          "excerpt": "All employees must be trained by a qualified person to recognize electrical hazards associated with scaffold use and how to control or minimize those hazards."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1505542.015",
+          "excerpt": "Employee came into contact with high-voltage conductors during scaffold erection, resulting in electrical burns and hospitalization."
+        },
+        {
+          "reference": "Accident Summary Nr: 1584732.015",
+          "excerpt": "Two employees electrocuted when moving a pump jack scaffold that contacted overhead powerlines."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

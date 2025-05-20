@@ -1,0 +1,83 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold access is unsafe due to employees climbing on crossbraces.",
+    "Scaffold does not meet required electrical safety clearance distances."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Unsafe Scaffold Access Via Crossbraces",
+      "checklist_item": "Is there a safe way to get on and off the scaffold without climbing on crossbraces?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "The use of crossbraces as a means of access is explicitly prohibited by OSHA standards (1926.451(e)(1)) due to severe fall hazards. Historical accident reports demonstrate falls from scaffolds caused by unsafe access, leading to fatalities and serious injuries. Climbing on crossbraces increases the risk of slipping or structural collapse, which can cause falls from height.",
+      "finding": "The scaffold inspection reveals that employees use crossbraces to access the scaffold platform, which violates OSHA standard 1926.451(e)(1) that expressly prohibits this practice. This unsafe access method exposes employees to fall hazards that have historically led to fatal and severe injuries, as evidenced by accident reports documenting falls and crush injuries when scaffold components failed or were improperly used for access. Adequate scaffold access such as ladders, stair towers, ramps, or prefabricated scaffold frames must be provided and used exclusively.",
+      "action_items": [
+        "Immediately prohibit the use of crossbraces for scaffold access or egress.",
+        "Install and maintain OSHA-approved means of access such as portable ladders, attachable ladders, stair towers, ramps, or integral prefabricated scaffold access as per 1926.451(e).",
+        "Train employees thoroughly on safe scaffold access methods during scaffold erection, use, and dismantling.",
+        "Ensure a competent person regularly inspects scaffold access to verify compliance and address unsafe practices promptly."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from elevation resulting in fatal or serious injuries.",
+        "Injuries related to uncontrolled falls due to slipping or loss of grip on unstable scaffold members."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(e)(1)",
+          "excerpt": "The standard prohibits the use of crossbraces as a means of access."
+        },
+        {
+          "reference": "29 CFR 1926.451(e)",
+          "excerpt": "Employees erecting and dismantling supported scaffolding must have a safe means of access provided."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "Employee fell 48 feet after climbing scaffold tiers, highlighting the importance of safe scaffold access."
+        },
+        {
+          "reference": "Inspection Nr 1506479.015 - Employee fell 10 feet using scaffold end-frame ladder rungs incorrectly",
+          "excerpt": "Employee fell due to improper access to scaffold platform, reinforcing hazard of unsafe access methods."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Does Not Meet Electrical Safety Clearance Distances",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Inadequate clearance from energized power lines creates a severe electrocution hazard, which has resulted in multiple fatalities and serious electrical injuries in recorded incidents. OSHA 1926.451(f)(6) mandates specific clearance distances and requires notifying utility operators or de-energizing lines to prevent electrical contact. Failure to maintain clearance exposes employees to deadly electrical arcs or shocks.",
+      "finding": "The scaffold does not comply with OSHA-required minimum clearance distances from energized power lines. Historical accident data highlight fatal electrocution incidents involving scaffolds placed too close to high-voltage conductors. This violation places workers at critical risk of electrical contact, resulting in severe burns, trauma, and death. Appropriate clearance must be verified and maintained, with utility companies coordinated for line de-energization or protection where necessary.",
+      "action_items": [
+        "Evaluate and adjust scaffold placement to meet OSHA clearance distances from power lines as specified in 1926.451(f)(6).",
+        "Coordinate with utility providers to de-energize or insulate power lines when work near energized lines is unavoidable.",
+        "Train employees on electrical hazards related to scaffolds and safe work practices near overhead power lines.",
+        "Use qualified and competent persons to inspect scaffolds for compliance with electrical clearance before each shift.",
+        "Implement warning signage and enforce administration controls to prevent unauthorized scaffold placement near power lines."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution resulting in fatalities or severe electrical burns.",
+        "Electrical shock leading to hospitalization and long-term injury.",
+        "Fires or secondary accidents caused by electrical arcs."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Scaffolds and scaffold components must maintain specified clearance distances from energized power lines."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 1580494.015 - Employee electrocuted touching conductor near scaffold",
+          "excerpt": "Employee came into contact or was near energized conductor approximately 10 inches from scaffold, resulting in electrical burns."
+        },
+        {
+          "reference": "Accident Summary Nr: 155680.015 - Two employees electrocuted moving pump jack scaffold near powerlines",
+          "excerpt": "Two employees died due to electrocution when scaffold contacted overhead power lines."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

@@ -1,0 +1,11 @@
+# Inspection Checklist Data
+- **Are all employees involved with (or near) the scaffold wearing hard hats?**: True
+- **Are guardrails and toeboards in place on all open sides?**: False
+- **Is there a safe way to get on and off the scaffold without climbing on crossbraces?**: True
+- **Are all sections pinned or appropriately secured?**: True
+- **Does the scaffold meet electrical safety clearance distances?**: True
+- **Make sure that tools and materials are at least 10 feet away from energized power lines.**: True
+- **Is the front face within 14 inches of the work (or within 3 feet for  outrigger scaffolds)?**: False
+- **Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.**: True
+- **Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.**: True
+- **Check for safe access. Do not use the cross braces as a ladder for access or exit.**: True

@@ -1,0 +1,84 @@
+{
+  "summary_of_major_safety_issues": [
+    "Scaffold does not meet electrical safety clearance distances.",
+    "Supported scaffold legs, posts, frames, and uprights are not on baseplates and mudsills."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Non-compliance with electrical safety clearance distances",
+      "checklist_item": "Does the scaffold meet electrical safety clearance distances?",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Proximity to energized power lines poses an immediate electrocution hazard, which in historical accidents has resulted in fatalities and severe electrical burns, as demonstrated in multiple accident reports involved with scaffolds near power lines.",
+      "finding": "The scaffold system at this site does not comply with the required electrical safety clearance distances, putting employees at high risk of accidental contact with energized power lines. Past incidents have shown that failure to maintain appropriate clearance can lead to electrocution, severe injury, or death. For example, accidents documented have involved scaffold components or employees contacting live power lines, resulting in fatalities and serious injuries. OSHA standard 1926.451(f)(6) specifies required clearance distances and mandates safe work practices to prevent these hazards.",
+      "action_items": [
+        "Immediately assess and confirm scaffold location relative to energized power lines.",
+        "Relocate scaffolds to ensure compliance with OSHA mandated clearance distances or de-energize or insulate power lines prior to work.",
+        "Implement site-specific electrical hazard awareness training for all scaffold users.",
+        "Establish and enforce strict safe distances for tools and materials from energized lines, in line with OSHA 1926.451(f)(6).",
+        "Regularly monitor and enforce compliance through competent person inspections before each shift."
+      ],
+      "potential_accident_outcomes": [
+        "Electrocution causing fatality or severe burns",
+        "Electric shock injuries requiring hospitalization",
+        "Scaffold destabilization due to electrical incidents leading to falls"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(f)(6)",
+          "excerpt": "Scaffolds and scaffold components shall not be erected, used, dismantled, altered, or moved closer than specified clearance distances to energized power lines unless the power lines have been de-energized or insulated."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Guide - Electrical Hazards",
+          "excerpt": "The standard requires specific clearance distances to prevent contact with or proximity to energized power lines. Employees must maintain these clearances to avoid electrocution or electrical burns."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Report 5 (1505542.015 12/08/2020 Heritage Plastering)",
+          "excerpt": "Employee was severely burned due to proximity/contact with a high-voltage conductor located approximately 10 inches from the scaffold."
+        },
+        {
+          "reference": "Accident Report 9 (1584732.015 03/10/2022 Maynor R Lopez Rios)",
+          "excerpt": "Two employees electrocuted when moving a pump jack scaffold made contact with overhead powerlines."
+        },
+        {
+          "reference": "Accident Report 7 (1505237.015 12/07/2020 SM Roofing And Siding)",
+          "excerpt": "Employees electrocuted when scaffold poles contacted energized overhead powerlines during repositioning."
+        }
+      ]
+    },
+    {
+      "issue_title": "Supported scaffold legs, posts, frames, and uprights are not on baseplates and mudsills",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "The absence of proper baseplates and mudsills compromises scaffold stability and foundation integrity, increasing the risk of scaffold tipping, swaying, or collapse. Historical incidents show that unstable scaffold foundations contribute significantly to falls and fatalities.",
+      "finding": "Scaffold legs, posts, frames, or uprights are not properly seated on baseplates and mudsills or other adequate firm foundations. This non-compliance threatens the scaffold\u2019s structural stability and places employees at risk of scaffold collapse or displacement. OSHA standards require that scaffold support components bear on stable baseplates and mud sills to prevent settling or movement. Failure to comply has been associated with serious fall incidents and scaffold tipping.",
+      "action_items": [
+        "Immediately install or verify installation of appropriate baseplates and mudsills under all scaffold support members.",
+        "Ensure footings are level, sound, rigid, and capable of supporting scaffold loads without settling.",
+        "Remove and replace any unstable objects currently supporting the scaffold.",
+        "Engage a competent person to inspect and certify foundation integrity prior to scaffold use and after any environmental or work condition changes.",
+        "Include baseplate and mudsill checks in routine scaffold inspections before each shift."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping leading to falls from elevation",
+        "Collapse of scaffold structures causing multiple injuries or fatalities",
+        "Serious fractures or blunt force trauma from scaffold instability"
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights must bear on base plates and mud sills or other adequate firm foundation."
+        },
+        {
+          "reference": "OSHA Scaffold Safety Guide - Footings and Foundations",
+          "excerpt": "Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement. Unstable objects shall not be used to support scaffolds."
+        }
+      ],
+      "relevant_accident_report": null
+    }
+  ],
+  "non_complaint_items_count": 2
+}

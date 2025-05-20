@@ -1,0 +1,73 @@
+{
+  "summary_of_major_safety_issues": [
+    "Front face of scaffold platforms is not within 14 inches of the work (or within 3 inches for outrigger scaffolds).",
+    "Legs, posts, frames, and uprights are not properly placed on baseplates and mud sills."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Scaffold Platform Front Face Distance Non-compliance",
+      "checklist_item": "Is the front face within 14 inches of the work (or within 3 feet for  outrigger scaffolds)?",
+      "checklist_result": "False",
+      "risk_level": "High",
+      "risk_justification": "Non-compliance with platform distance requirements can lead to fall hazards if employees lean or stretch to reach the work. OSHA standard 1926.451(b)(3) limits the distance to reduce fall risks. Accident reports show that falls from scaffold edges without proper proximity or guardrails have resulted in severe injuries and fatalities.",
+      "finding": "The inspection revealed that the scaffold platforms are not positioned within the required 14 inches from the work face, or within 3 inches for outrigger scaffolds. This situation increases the risk of falls as workers may need to overreach or lean dangerously, or the scaffold may not provide adequate fall protection. OSHA standards require these distances to minimize fall hazards and ensure worker safety.",
+      "action_items": [
+        "Adjust scaffold platforms to ensure the front edge is no greater than 14 inches from the work surface, or no greater than 3 inches for outrigger scaffolds, in compliance with 29 CFR 1926.451(b)(3).",
+        "Verify that guardrails or personal fall arrest systems are in place when adjusting platform distances.",
+        "Conduct training to ensure workers understand the importance of proper scaffold positioning relative to the work face."
+      ],
+      "potential_accident_outcomes": [
+        "Falls from scaffold platforms causing fractures, blunt force trauma, or fatalities as documented in multiple accident reports involving falls due to improper platform positioning."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(b)(3)",
+          "excerpt": "Except as provided, the front edge of all platforms shall not be more than 14 inches from the face of the work, and for outrigger scaffolds, not more than 3 inches."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "Employee fell from scaffold due to lack of adequate fall protection and improper scaffold setup, resulting in fatal blunt force trauma."
+        },
+        {
+          "reference": "Accident Summary Nr: 0215000 - Masonry worker fatal fall",
+          "excerpt": "Employee fell 5 feet while working from scaffold platform with inadequate fall protection and possibly unsafe scaffold positioning."
+        }
+      ]
+    },
+    {
+      "issue_title": "Scaffold Legs, Posts, Frames, and Uprights Not on Baseplates and Mud Sills",
+      "checklist_item": "Check legs, posts, frames, and uprights to see if they are on baseplates and mudsills.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Supporting scaffold structural members on improper footing or without baseplates and mud sills can cause scaffold instability and collapse, which is a critical hazard. OSHA 1926.451(c)(2) requires supports to be stable and capable of supporting loads. Accident reports highlight scaffold collapses resulting in fatal injuries and severe trauma caused by unstable foundations.",
+      "finding": "The scaffold legs, posts, frames, or uprights were found not to be supported on baseplates and mud sills or other adequate firm foundation. This non-compliance poses a high risk of scaffold settlement, displacement, or collapse under load, jeopardizing employee safety significantly.",
+      "action_items": [
+        "Place all scaffold support elements on appropriate baseplates and mud sills to ensure firm, level, and stable footing as per OSHA 1926.451(c)(2).",
+        "Do not use unstable or unsuitable objects as scaffold supports.",
+        "Institute a competent person procedure to verify scaffold footing stability prior to and during use."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold collapse causing falls from height, crushing injuries, blunt force trauma, and fatalities as evidenced by accident reports involving unstable scaffold support."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "The fatal fall occurred in part due to inadequate scaffold structural bracing and foundation."
+        },
+        {
+          "reference": "Accident Summary Nr: 1502297.015 - Fatal scaffold tipping accident",
+          "excerpt": "Scaffold tipped resulting in fatal crush injuries; stability issues likely linked to foundation and structural support."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 2
+}

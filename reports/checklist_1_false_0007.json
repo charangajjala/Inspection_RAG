@@ -1,0 +1,52 @@
+{
+  "summary_of_major_safety_issues": [
+    "Footings are not level, sound, rigid, and capable of supporting the loaded scaffold."
+  ],
+  "detailed_findings": [
+    {
+      "issue_title": "Improper Scaffold Footings and Foundation Support",
+      "checklist_item": "Check footings to see if they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+      "checklist_result": "False",
+      "risk_level": "Critical",
+      "risk_justification": "Improper footings can lead to scaffold instability, sway, displacement, or collapse under load, increasing the risk of falls or crushing injuries as documented in multiple scaffold-related fatal and serious injury incidents.",
+      "finding": "The scaffold footings were found not to be level, sound, rigid, and capable of supporting the loaded scaffold, indicating a critical stability issue. OSHA standards explicitly require scaffold poles, legs, posts, frames, and uprights to bear on base plates and mud sills or other adequate firm foundation to prevent settling or displacement (1926.451(c)(2)). Historical accident contexts detail fatal falls and injuries resulting from scaffold collapses or tipping due to inadequate footing conditions.",
+      "action_items": [
+        "Immediately evaluate and rebuild scaffold footings to ensure they are level, sound, rigid, and capable of supporting the loaded scaffold.",
+        "Install base plates and mud sills on all scaffold legs to distribute load and prevent settling or displacement as per OSHA requirements (1926.451(c)(2)).",
+        "Engage a competent person to inspect and approve the scaffold foundation before use and regularly thereafter.",
+        "Train scaffold erectors and users to recognize footing requirements and instability hazards.",
+        "Implement routine inspections before each work shift to verify footing conditions remain compliant."
+      ],
+      "potential_accident_outcomes": [
+        "Scaffold tipping and collapse resulting in fatal falls as described in multi-story scaffold collapse accident reports.",
+        "Serious traumatic injuries including fractures, crushed extremities, or head trauma from falls onto hard surfaces.",
+        "Electrocution or electrical burns if scaffold collapses near energized power lines due to loss of structural control."
+      ],
+      "relevant_standard": [
+        {
+          "reference": "29 CFR 1926.451(c)(2)",
+          "excerpt": "Supported scaffold poles, legs, posts, frames, and uprights shall bear on base plates and mud sills or other adequate firm foundation. Footings shall be level, sound, rigid, and capable of supporting the loaded scaffold without settling or displacement."
+        },
+        {
+          "reference": "29 CFR 1926.451(c)(3)",
+          "excerpt": "The structural members -- poles, legs, posts, frames, and uprights -- must be plumbed and braced to prevent swaying and displacement."
+        }
+      ],
+      "relevant_accident_report": [
+        {
+          "reference": "Accident Summary Nr: 131063.015 - Employee installing scaffold is killed in fall",
+          "excerpt": "Employee fell 48 feet from scaffold platform due to lack of proper installation and fall protection."
+        },
+        {
+          "reference": "Accident Summary Nr: 155680.015 - Two employees are electrocuted, one incurs electrical burns",
+          "excerpt": "Scaffold instability and proximity to power lines contributed to multiple fatalities and injuries due to electrocution."
+        },
+        {
+          "reference": "Accident Summary Nr: 140511.015 - Employee falls and dies when makeshift platform breaks",
+          "excerpt": "Platform was not fully planked or structurally sound, contributing to fatal fall."
+        }
+      ]
+    }
+  ],
+  "non_complaint_items_count": 1
+}
