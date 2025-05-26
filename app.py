@@ -32,7 +32,7 @@ question_to_action = {
 
 # === Streamlit Setup ===
 st.set_page_config(page_title="Safety Review Portal", layout="wide")
-st.markdown("<h1 style='font-size: 2.8em;'>🏗️ Scaffold Safety Review Portal</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='font-size: 2.8em;'>\ud83c\udfd7\ufe0f Scaffold Safety Review Portal</h1>", unsafe_allow_html=True)
 
 # === Username-only Login ===
 with st.form("login_form"):
@@ -57,13 +57,6 @@ file_pairs = [
     if os.path.exists(os.path.join(REPORT_DIR, os.path.basename(path).replace(".md", ".json")))
 ]
 
-# === Navigation State ===
-if "index" not in st.session_state:
-    st.session_state.index = 0
-
-max_index = len(file_pairs) - 1
-index = st.session_state.index
-
 # === Create Expert Sheet if Needed ===
 try:
     worksheet = spreadsheet.worksheet(expert_id)
@@ -74,17 +67,25 @@ except gspread.exceptions.WorksheetNotFound:
 existing_rows = worksheet.get_all_values()
 submitted_ids = [row[1] for row in existing_rows[1:]]
 
+# === Navigation State ===
+if "index" not in st.session_state:
+    unreviewed = [i for i, (base, _, _) in enumerate(file_pairs) if base not in submitted_ids]
+    st.session_state.index = unreviewed[0] if unreviewed else 0
+
+max_index = len(file_pairs) - 1
+index = st.session_state.index
+
 # === Progress Display ===
-st.markdown(f"<p style='font-size: 1.4em;'>🧮 Progress: <b>{len(submitted_ids)}</b> / <b>{len(file_pairs)}</b></p>", unsafe_allow_html=True)
+st.markdown(f"<p style='font-size: 1.4em;'>\ud83e\uddf2 Progress: <b>{len(submitted_ids)}</b> / <b>{len(file_pairs)}</b></p>", unsafe_allow_html=True)
 st.progress(len(submitted_ids) / len(file_pairs))
 
 # === Current File ===
 base_name, checklist_path, report_path = file_pairs[index]
-submitted = "✅ Submitted" if base_name in submitted_ids else "❌ Not Submitted"
+submitted = "\u2705 Submitted" if base_name in submitted_ids else "\u274c Not Submitted"
 status_color = "#28a745" if base_name in submitted_ids else "#dc3545"
 
 st.markdown(
-    f"<h2 style='font-size: 2em;'>📂 Reviewing: {base_name} "
+    f"<h2 style='font-size: 2em;'>\ud83d\udcc2 Reviewing: {base_name} "
     f"<span style='font-size: 0.7em; color: {status_color};'>({submitted})</span></h2>",
     unsafe_allow_html=True
 )
@@ -99,15 +100,15 @@ for line in checklist_md.splitlines():
         q = line.split(":")[0].replace("- **", "").replace("**", "").strip()
         false_items.append(q)
 
-st.markdown("<h3 style='color:#dc3545; font-size: 1.6em;'>❌ Non-Compliant Checklist Items</h3>", unsafe_allow_html=True)
+st.markdown("<h3 style='color:#dc3545; font-size: 1.6em;'>\u274c Non-Compliant Checklist Items</h3>", unsafe_allow_html=True)
 if false_items:
     for q in false_items:
-        st.markdown(f"<p style='font-size: 1.3em;'>• {q}</p>", unsafe_allow_html=True)
+        st.markdown(f"<p style='font-size: 1.3em;'>\u2022 {q}</p>", unsafe_allow_html=True)
 else:
     st.markdown("<p><i>No non-compliant items found.</i></p>", unsafe_allow_html=True)
 
 # === Display Report ===
-st.markdown("### 📄 Generated Report (Simplified View)")
+st.markdown("### \ud83d\udcc4 Generated Report (Simplified View)")
 with open(report_path, "r") as f:
     try:
         report_data = json.load(f)
@@ -119,26 +120,26 @@ with open(report_path, "r") as f:
                 if checklist_item:
                     st.markdown(f"<h4 style='font-size: 1.4em; color:#003366;'>{checklist_item}</h4>", unsafe_allow_html=True)
                     for item in action_items:
-                        st.markdown(f"<p style='font-size: 1.2em;'>• {item}</p>", unsafe_allow_html=True)
+                        st.markdown(f"<p style='font-size: 1.2em;'>\u2022 {item}</p>", unsafe_allow_html=True)
         else:
             st.markdown(f"<pre>{str(report_data)}</pre>", unsafe_allow_html=True)
     except Exception as e:
         st.markdown(f"<pre>Error loading report: {e}</pre>", unsafe_allow_html=True)
 
 # === Ground Truth Actions ===
-st.markdown("### 🧾 Ground Truth Actions")
+st.markdown("### \ud83e\uddfe Ground Truth Actions")
 if false_items:
     for q in false_items:
         actions = question_to_action.get(q, [])
         if actions:
             st.markdown(f"<h4 style='font-size: 1.3em; color:#004085;'>{q}</h4>", unsafe_allow_html=True)
             for a in actions:
-                st.markdown(f"<p style='font-size: 1.2em;'>• {a}</p>", unsafe_allow_html=True)
+                st.markdown(f"<p style='font-size: 1.2em;'>\u2022 {a}</p>", unsafe_allow_html=True)
 else:
     st.markdown("<p>No matching ground truth actions found.</p>", unsafe_allow_html=True)
 
 # === Review Form ===
-score = st.radio("Expert Evaluation Score", [1, 0], format_func=lambda x: "✅ Acceptable" if x == 1 else "❌ Unacceptable")
+score = st.radio("Expert Evaluation Score", [1, 0], format_func=lambda x: "\u2705 Acceptable" if x == 1 else "\u274c Unacceptable")
 comment = st.text_area("Optional Comments", height=100)
 
 if st.button("Submit Review"):
@@ -155,16 +156,19 @@ if st.button("Submit Review"):
             break
     if not updated:
         worksheet.append_row([expert_id, base_name, score, comment, timestamp])
-    st.success("✅ Review submitted!")
+    st.success("\u2705 Review submitted!")
     st.rerun()
 
 # === Navigation Buttons ===
 col1, col2 = st.columns(2)
 with col1:
-    if st.button("⬅️ Previous") and index > 0:
+    if st.button("\u2b05\ufe0f Previous") and index > 0:
         st.session_state.index -= 1
         st.rerun()
 with col2:
-    if st.button("Next ➡️") and index < max_index:
-        st.session_state.index += 1
-        st.rerun()
+    if base_name in submitted_ids:
+        if st.button("Next \u27a1\ufe0f") and index < max_index:
+            st.session_state.index += 1
+            st.rerun()
+    else:
+        st.markdown("<p style='color: red;'>\u2757 Submit review to unlock 'Next'</p>", unsafe_allow_html=True)
